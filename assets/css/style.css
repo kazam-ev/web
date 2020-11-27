@@ -1,0 +1,260 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+}
+
+.font-color{
+  color: #959595;
+}
+
+.f-small {
+  font-size: 0.75rem;
+}
+
+.bdr-95 {
+  border: solid 1px #959595;
+}
+
+.top-banner {
+  min-height: 100px;
+}
+
+.green-info,
+.top-banner {
+  position: relative;
+  z-index: 0;
+}
+
+.green-info img,
+.top-banner img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.header-image {
+    width: 100%;
+    height: 312px;
+    background-image: url('./assets/img/header-image.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .card {
+    border-radius: 4px;
+
+    background-color: #ffffff;
+  }
+
+.we-call {
+  }
+  .We-call-you {
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 1.25;
+    color: #1a1a1a;
+  }
+  .we-setup {
+  }
+
+  .you-book {
+  }
+
+  .we-complete {
+  }
+
+  .you-pay {
+  }
+
+  .how-it-works {
+    margin: 24px;
+    font-family: Lato;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #1a1a1a;
+  }
+
+  .Group-223 {
+    width: 35.2px;
+    height: 35.2px;
+    margin: 0 17.8px 21.2px 17px;
+    object-fit: contain;
+  }
+
+  .Group-224 {
+    width: 43.3px;
+    height: 28.9px;
+    margin: 0 38.7px 26px 38px;
+    object-fit: contain;
+  }
+
+  .sub-title {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #959595;
+  }
+
+  .sub-title-electric-car {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 1.21;
+    color: #f4263d;
+  }
+  .title {
+    width: 76px;
+    height: 22px;
+    margin: 67px 6px 1px 37.3px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1a1a;
+  }
+
+  .footer {
+    width: 100%;
+    margin: 42px 0 0;
+    background-color: #f8f8f8;
+  }
+
+  .footer-title {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.22;
+    color: #1a1a1a;
+  }
+
+  .footer-detail {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+  }
+  .footer-detail li {
+    margin-bottom: 5px;
+  }
+
+  .copyright {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #959595;
+  }
+
+  .social-icon {
+    text-align: center;
+    float: right;
+  }
+
+  .header {
+    background-color: white;
+  }
+
+  .Kazam {
+    margin: 0;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #1a1a1a;
+  }
+
+  .tagline {
+    opacity: 0.8;
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1a1a;
+  }
+
+  .banner {
+    background-image: url("./assets/img/banner-image.png");
+  }
+
+  .book-charging {
+    border-radius: 37px;
+    border: solid 1px #1a1a1a;
+    background-color: white;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1a1a;
+  }
+
+  .book-charging:hover {
+    background-color: #dc3545;
+    color: white;
+  }
+
+  .menu {
+    margin: 10px 0px 0px 10px;
+  }
+
+  .nav {
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 1;
+  }
+
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #959595;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #959595;
+}
+.separator::before {
+    margin-right: .25em;
+}
+.separator::after {
+    margin-left: .25em;
+}
+
+.background-red {
+  background-color: #f4263d;
+}
+
+.background-gray {
+  background-color: gray;
+}
+
+.crousel-img {
+  height: 200px;
+  width: 400px;
+}
