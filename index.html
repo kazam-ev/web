@@ -13,64 +13,70 @@
     <title>Kazam</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row nav">
-            <image class="menu" src="./assets/img/menu.svg"></image>
-            <div class="col my-2">
-                <p class="Kazam">Kazam <span class="tagline">Everything electric</span></p>
+   
+    <div class="row align-items-center nav">
+            <div class="col">
+                <br>
+                <p class="Kazam">KAZAM<span class="tagline">Everything electric</span></p>
             </div>
-            <div class="col my-2 text-right">
+            <div class="col text-right">
+                <br>
                 <button class="btn book-charging">Book Charging station</button>
             </div>
-        </div>
+    </div>
 
-        <div class="row mt-2">
-            <div class="col top-banner">
-                <img class="header-image" src = "./assets/img/header-image.png" />
-                <br>
-                <h5 class="text-white text-center m-0">Want to get a charging station</h5>
-                <br>
-                <p class="text-white text-center">Let our experts help you</p>
-                <br>
-                <div class="input-group mb-3 number-form">
-                    <input type="text" class="form-control" id="numberInput" placeholder="Enter Phone Number">
-                    <div class="input-group-append">
-                      <button class="btn btn-danger" type="submit" id="getaquote" data-toggle="modal"  onclick="myFunction()">Get A Quote</button>
-                    </div>
-                </div>
-                <p id="errormsg" class="text-white"></p>
-                <br>
-                <br>
+    <div class="row">
+        <div class="col top-banner">
+            <img class="header-image" src = "./assets/img/header-img-desktop.png" />
+            <p class="text-white text-center m-0 banner-text-title">Want to get a charging station</p>
+            <p class="text-white text-center banner-text-subtitle">Let our experts help you</p>
+            <div class="input-group number-form user-input">
+                <input type="text" class="form-control" id="numberInput" placeholder="Enter Phone Number">
+                <button class="btn btn-danger ml-1" type="submit" id="getaquote" onclick="myFunction()">Get A Quote</button>
             </div>
+            <p id="errormsg" class="text-white"></p>
         </div>
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-                </div>
-                <div class="modal-body">
-                    <h6 class="modal-title" id="modalmsg">Thank You, Our team will get in touch with you !!</h6>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-            </div>
-        </div>
+    </div>
     
-        <!--Modal ends-->
-            <!-- Slider removed
-                <div class="row">
-                    <div class="col text-center">
-                        <img src="./assets/img/slider1.png" class="img-fluid" />
+    <!--Image Slider -->
+    <div class="container">
+        <div class="row image-slider">
+            <div class="col">
+                <div id="imagecarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/img/image-slider1.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/image-slider2.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/image-slider3.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/image-slider4.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/image-slider5.png" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/img/image-slider6.png" class="d-block w-100" alt="...">
+                      </div>
                     </div>
-                </div>
-            -->
-        <!--latest electric car -->
+                    <a class="carousel-control-prev" href="#imagecarousel" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#imagecarousel" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+            </div>
+        </div>
+    <!--/Image slider-->
+    <!--latest electric car -->
+    
         <div class="row row-cols-5">
             <div class="col-12">
                 <p class="how-it-works">LATEST ELECTRIC CARS</p>
@@ -485,50 +491,51 @@
             </div>
         </div>
         <!--/what makes us best-->
+    </div>
         <!-- row -->
         <div class="row mt-5">
             <div class="col green-info px-3 py-5">
                 <img src = "./assets/img/banner-image.png">
-                <p class="text-white m-0">23% of CO2 emission</p>
-                <p class="text-white">is caused by combustion vehicles. </p>
-                <h5 class="text-white m-0">Save earth and use electric vehicles</h5>
+                <p class="text-white m-0 green-title">23% of CO2 emission</p>
+                <p class="text-white green-subtitle">is caused by combustion vehicles. </p>
+                <p class="text-white m-0 green-title">Save earth and use electric vehicles</p>
             </div>
         </div>
         <!-- row -->
-        <!--not required
+    <!--car dekho dynamic section-->
+    <div class ="container">
         <div class="row mt-4">
             <div class="col">
+                <div class="row align-items-center">
+                    <img class = "Group-240" src="./assets/img/Group 240.svg">
+                    <div class="col">
+                        <p>India's #1</p>
+                        <p class="sub-title m-0">Largest auto portal</p>
+                    </div>
 
-                        <div class="row align-items-center">
-                            <img class = "Group-240" src="./assets/img/Group 240.svg">
-                            <div class="col">
-                                <p>India's #1</p>
-                                <p class="sub-title m-0">Largest auto portal</p>
-                            </div>
+                    <img class = "Group-240" src="./assets/img/Group 241.svg">
+                    <div class="col">
+                        <p>Car Sold</p>
+                        <p class="sub-title">Every 4 minute</p>
+                    </div>
 
-                            <img class = "Group-240" src="./assets/img/Group 241.svg">
-                            <div class="col">
-                                <p>Car Sold</p>
-                                <p class="sub-title">Every 4 minute</p>
-                            </div>
-
-                            <img class = "Group-240" src="./assets/img/Group 242.svg">
-                            <div class="col">
-                                <p>Offers</p>
-                                <p class="sub-title">Stay updated pay less</p>
-                            </div>
-                       
-                            <img class = "Group-240" src="./assets/img/Group 244.svg">
-                            <div class="col">
-                                <p>Compare</p>
-                                <p class="sub-title">Decode the right car</p>
-                            </div>
-                        </div>
-                    
+                    <img class = "Group-240" src="./assets/img/Group 242.svg">
+                    <div class="col">
+                        <p>Offers</p>
+                        <p class="sub-title">Stay updated pay less</p>
+                    </div>
+                
+                    <img class = "Group-240" src="./assets/img/Group 244.svg">
+                    <div class="col">
+                        <p>Compare</p>
+                        <p class="sub-title">Decode the right car</p>
+                    </div>
+                </div>       
             </div>
         </div>
-    -->
-        <!-- row -->
+    </div>
+    <!--/car dekho dynamic section-->
+    <!-- row -->
     
     <div class="row mt-2">
         <div class="footer pt-5 px-3">           

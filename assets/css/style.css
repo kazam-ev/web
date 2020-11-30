@@ -3,6 +3,32 @@ body {
   font-size: 16px;
 }
 
+.banner-text-title {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  color: #ffffff;
+  padding: 130px 0px 0px 0px
+}
+
+.banner-text-subtitle {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  padding: 18px 0px 40px 0px;
+}
+
+.image-slider {
+  padding: 35px 0px 0px 0px;
+}
 .container {
   width: 100%;
 }
@@ -20,9 +46,34 @@ body {
 }
 
 .top-banner {
-  min-height: 100px;
+  min-height: 482px;
 }
 
+.green-title {
+font-family: Lato;
+font-size: 40px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.19;
+letter-spacing: normal;
+padding: 0 0px 0 168px;
+}
+
+.green-subtitle {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  padding: 0 0px 0 168px;
+  }
+
+.green-info {
+  min-height: 350px;
+}
 .green-info,
 .top-banner {
   position: relative;
@@ -177,7 +228,6 @@ body {
     font-size: 20px;
     font-weight: bold;
     line-height: 1.2;
-    color: #1a1a1a;
   }
 
   .tagline {
@@ -190,7 +240,7 @@ body {
     line-height: 1.18;
     letter-spacing: normal;
     text-align: left;
-    color: #1a1a1a;
+    margin-left: 10px;
   }
 
   .banner {
@@ -199,8 +249,9 @@ body {
 
   .book-charging {
     border-radius: 37px;
-    border: solid 1px #1a1a1a;
-    background-color: white;
+    border: solid 1px #ffffff;
+    background-color: black ;
+    color:white;
     font-family: Lato;
     font-size: 10px;
     font-weight: bold;
@@ -209,23 +260,20 @@ body {
     line-height: 1.2;
     letter-spacing: normal;
     text-align: left;
-    color: #1a1a1a;
-  }
-
-  .book-charging:hover {
-    background-color: #dc3545;
-    color: white;
+    padding: 10px 15px 10px 15px;
   }
 
   .menu {
     margin: 10px 0px 0px 10px;
   }
-
+  
   .nav {
+    color:white;
     position: sticky;
-    top:0;
-    background-color: white;
+    top:0px;
+    background-color: black;
     z-index: 1;
+    padding: 0px 115px 20px 115px;
   }
 
 .separator {
@@ -257,4 +305,8 @@ body {
 .crousel-img {
   height: 200px;
   width: 400px;
+}
+
+.user-input{
+  padding: 20px 400px 0px 400px;
 }
