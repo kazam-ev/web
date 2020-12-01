@@ -51,13 +51,13 @@ body {
 
 .green-title {
 font-family: Lato;
-font-size: 40px;
+font-size: 30px;
 font-weight: bold;
 font-stretch: normal;
 font-style: normal;
 line-height: 1.19;
 letter-spacing: normal;
-padding: 0 0px 0 168px;
+padding: 30px 0px 0 168px;
 }
 
 .green-subtitle {
@@ -69,6 +69,7 @@ padding: 0 0px 0 168px;
   line-height: 1.22;
   letter-spacing: normal;
   padding: 0 0px 0 168px;
+  margin-bottom: 49px;
   }
 
 .green-info {
@@ -102,7 +103,7 @@ padding: 0 0px 0 168px;
 
   .card {
     border-radius: 4px;
-
+    
     background-color: #ffffff;
   }
 
@@ -112,27 +113,6 @@ padding: 0 0px 0 168px;
     font-family: Lato;
     font-size: 12px;
     line-height: 1.25;
-    color: #1a1a1a;
-  }
-  .we-setup {
-  }
-
-  .you-book {
-  }
-
-  .we-complete {
-  }
-
-  .you-pay {
-  }
-
-  .how-it-works {
-    margin: 24px;
-    font-family: Lato;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 2px;
-    text-align: center;
     color: #1a1a1a;
   }
 
@@ -157,12 +137,29 @@ padding: 0 0px 0 168px;
     color: #959595;
   }
 
-  .sub-title-electric-car {
+  .car-card-sub-title {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    color: #f4263d;
+    margin-bottom: 15px;
+    padding: 0 24px;
+  }
+
+  .car-card-title {
     font-family: Lato;
     font-size: 14px;
-    line-height: 1.21;
-    color: #f4263d;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    margin-top: 0;
+    padding: 0 24px;
+    line-height: 0;
   }
+
   .title {
     width: 76px;
     height: 22px;
@@ -180,25 +177,31 @@ padding: 0 0px 0 168px;
 
   .footer {
     width: 100%;
-    margin: 42px 0 0;
+    margin: 10px 0 0;
     background-color: #f8f8f8;
   }
 
   .footer-title {
+    
     font-family: Lato;
     font-size: 18px;
     font-weight: bold;
     line-height: 1.22;
     color: #1a1a1a;
+    padding: 0px 0px 0 100px;
   }
 
   .footer-detail {
     list-style: none;
-    margin: 0 0 20px;
-    padding: 0;
+    padding: 0px 0px 0 100px;
+    
   }
   .footer-detail li {
     margin-bottom: 5px;
+  }
+
+  .footer-text {
+    padding: 0px 125px 0 125px;
   }
 
   .copyright {
@@ -281,6 +284,8 @@ padding: 0 0px 0 168px;
     align-items: center;
     text-align: center;
     color: #959595;
+    margin-top: 35px;
+    margin-bottom: 64px;
 }
 .separator::before, .separator::after {
     content: '';
@@ -296,6 +301,7 @@ padding: 0 0px 0 168px;
 
 .background-red {
   background-color: #f4263d;
+  margin: 0px 0px 20px -200px;
 }
 
 .background-gray {
@@ -303,10 +309,89 @@ padding: 0 0px 0 168px;
 }
 
 .crousel-img {
-  height: 200px;
-  width: 400px;
+  height: 160px;
+  width: 300px;
+  margin: 0 0 10px 262px;
 }
 
 .user-input{
   padding: 20px 400px 0px 400px;
+}
+
+.btn-contact-dealer {
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  padding: 0px 0px 0px 0px;
+  margin: -45px 20px 15px 220px;
+}
+
+.card-headline {
+  margin: 24px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #1a1a1a;
+  padding-bottom: 40px;
+}
+
+.user-name {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  margin: 0 0 0px 262px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.user-location {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  margin: 0 0 0px 262px;
+}
+
+.user-review-content {
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  color: #959595;
+  margin: -70px 0 0px -30px;
+}
+
+.user-review-quote {
+  font-family: Inter;
+  font-size: 120px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #959595;
+  margin: -10px 0 0px -100px;
+}
+.kazam-lite-image {
+  min-height: 784px;
 }
