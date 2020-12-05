@@ -37,10 +37,14 @@
             <img class="header-image" src = "./assets/img/header-img-desktop.png" />
             <p class="text-white text-center m-0 banner-text-title">Want to get a charging station</p>
             <p class="text-white text-center banner-text-subtitle">Let our experts help you</p>
-            <div class="input-group number-form user-input">
-                <input type="text" class="form-control placeholder" id="numberInput" placeholder="Enter Phone Number">
-                <button class="btn btn-danger ml-1" type="submit" id="getaquote" onclick="myFunction()">Get A Quote</button>
-            </div>
+            <form id="form">
+                <div class="input-group number-form user-input">
+                    
+                    <input type="text" class="form-control placeholder" id="numberInput" placeholder="Enter Phone Number">
+                    <button class="btn btn-danger ml-1" type="submit" id="getaquote" onclick="myFunction()">Get A Quote</button>
+                    
+                </div>
+            </form>
             <p id="errormsg" class="text-white"></p>
         </div>
     </div>
@@ -653,8 +657,11 @@
             if (!x.match(phoneRegex)) {
                 text = "Please enter valid phone";
                 document.getElementById("errormsg").innerHTML = text;
+                $('#form').trigger("reset");
+                
             } else {
                alert("Thank You, Our team will get in touch with you !!");
+               $('#form').trigger("reset");
             }
             
         }
