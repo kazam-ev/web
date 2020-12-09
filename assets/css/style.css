@@ -34,7 +34,11 @@
 body {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
-  background-color: rgb(245, 237, 237);
+  background-color: #ffffff;
+}
+
+.gradient {
+  background-image: linear-gradient(to bottom, #050506, #0f0f10 67%, rgba(26, 26, 26, 0))
 }
 
 h1 {
@@ -314,7 +318,7 @@ padding: 30px 0px 0 168px;
   }
 
   .menu {
-    margin: 10px 0px 0px 10px;
+    margin: 10px 0px 0px 296px;
   }
   
   .nav {
@@ -356,9 +360,9 @@ padding: 30px 0px 0 168px;
 }
 
 .crousel-img {
-  height: 160px;
-  width: 300px;
-  margin: 0 0 10px 262px;
+  height: 170px;
+  width: 232px;
+  margin: 0 0 10px 340px;
 }
 
 .user-input{
@@ -444,7 +448,7 @@ padding: 30px 0px 0 168px;
   margin: -10px 0 0px -100px;
 }
 .kazam-lite-image {
-  padding: 144px 0 303px 200px;
+  padding: 144px 0px 0px 200px;
 }
 
 .green-info,
@@ -475,10 +479,10 @@ padding: 30px 0px 0 168px;
 
   .car-banner-image {
       width: 100%;
-      margin-bottom: 39px;
       min-width: 1120px;
       object-fit: cover;
       z-index: -1;
+      position: absolute;
       
   }
 
