@@ -54,7 +54,6 @@
 <body>
     <div class="container">
         <div class="row nav">
-            <image class="menu" src="./assets/img/menu.svg"></image>
             <div class="col my-2">
                 <p class="Kazam">Kazam <span class="tagline">Everything electric</span></p>
             </div>
@@ -74,12 +73,7 @@
                 <br>
                     <div class="float-center">
                         <div class="input-group mb-3 number-form">
-                            <form id="myForm">
-                                <input type="text" class="form-control" id="numberInput" placeholder="Enter Phone Number" name="phone_number">
-                            </form>
-                            <div class="input-group-append">
-                                <button class="btn btn-danger" type="submit" id="getaquote" data-toggle="modal"  onclick="SubForm()">Get A Quote</button>
-                            </div>
+                            c
                         </div>
                         <p id="errormsg" class="text-white"></p>
                     </div>
@@ -107,13 +101,14 @@
         </div>
         </div>
         <!--Modal ends-->
-            <!-- Slider removed
-                <div class="row">
-                    <div class="col text-center">
-                        <img src="./assets/img/slider1.png" class="img-fluid" />
-                    </div>
-                </div>
-            -->
+        <!-- Slider-->
+        <div class="row">
+            <div class="col text-center">
+                <img src="./assets/img/slider1.png" class="img-fluid" />
+            </div>
+        </div>
+        <!--/Slider-->
+    <div class="container">
         <!-- row -->
         <div class="row mt-2">
             <div class="col-12">
@@ -175,6 +170,92 @@
             </div>
             
         </div>
+        <!--/how it work-->
+        <!--Blog Post-->
+        <div class="row row-cols-5 mt-5">
+            <div class="col-12 text-center">
+                <p class="card-headline">BLOG POST</p>
+            </div>
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col pr-1">
+                        <div class="card shadow">
+                            <img class="card-img-top mb-3 article-image" src="./assets/img/article1.jpeg" alt="blog post">
+                            <div class="card-body">
+                                <h6 class="card-title mb-1 article-title" >Top 5 electric bikes in India</h6>
+                                <button type="button" class="btn btn-read">Read Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 1 -->
+                   <!--
+                    <div class="col pr-1">
+                        <div class="card">
+                            <img class="card-img-top mb-3 article-image" src="./assets/img/article2.jpeg" alt="blog post">
+                            <div class="card-body">
+                                <h6 class="card-title mb-1 article-title" >Which charging stations should I choose?</h6>
+                                <button type="button" class="btn float-right border-danger btn-read" >Read Now</button>
+                            </div>
+                        </div>
+                    </div>
+                -->
+                    <!-- 2 -->
+                    <!--
+                    <div class="col-4 pr-1">
+                        <div class="card">
+                            <img class="card-img-top mb-3 article-image" src="./assets/img/article3.jpeg" alt="blog post">
+                            <div class="card-body">
+                                <h6 class="card-title mb-1 article-title" >Tata Nexon EV-  Review</h6>
+                                <button type="button" class="btn float-right border-danger btn-read" >Read Now</button>
+                            </div>
+                        </div>
+                    </div>
+                -->
+                </div>
+            </div>
+            
+        </div>
+        <!--/Blog Post-->
+          <!--Vlog Post-->
+          <div class="row row-cols-5 mt-5">
+            <div class="col-12 text-center">
+                <p class="card-headline">VLOG POST</p>
+            </div>
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col pr-1">
+                        <div class="card">
+                           
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe width="727" height="409" src="https://www.youtube.com/embed/l8QOymtYicI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            
+                        </div>
+                    </div>
+                    <!-- 1 -->
+                    <!--
+                    <div class="col pr-1">
+                        <div class="card">          
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe width="727" height="409" src="https://www.youtube.com/embed/Fl4ZTXhk5KE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                  </div>
+                        </div>
+                    </div>
+                -->
+                    <!-- 2 -->
+                    <!--
+                    <div class="col pr-1">
+                        <div class="card">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe width="727" height="409" src="https://www.youtube.com/embed/oFBmC7gYNVY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                        </div>
+                    </div>
+                -->
+                </div>
+            </div>
+        </div>
+        <!--Vlog post-->
         <div class="row mt-2">
             <div class="col-12">
                 <p class="how-it-works">HOW IT WORKS</p>
@@ -264,11 +345,35 @@
                     <!-- 2 -->
                 </div>
             </div>
+            <div class="col-12">
+                <div class="row justify-content-center">
+                    <div class="col-6 pb-2  pr-1">
+                        <div class="card shadow w-100 text-center h-100">
+                            <div class="card-body">
+                                <img class="you-book" src="./assets/img/Group 223.svg" alt="Card image cap">
+                                <p class="card-text font-color">India’s no 1
+                                    EV Portal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 1 -->
+                    <div class="col-6 pb-2 pr-1">
+                        <div class="card shadow w-100 text-center h-100">
+                            <div class="card-body">
+                                <img class="we-complete" src="./assets/img/Group 224.svg" alt="Card image cap">
+                                <p class="card-text font-color">Compare & Choose
+                                    Your EV</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                </div>
+            </div>
         </div>
-        <div class="row mt-5">
+        <div class="row">
             <div class="col-12">
                 
-                <div class="card bdr-95 w-100 text-center h-100">
+                <div class="card shadow w-100 text-center h-100">
                     <div class="card-body">
                         <img class="you-pay mb-3" src="./assets/img/you-pay.svg" alt="Card image cap">
                         <h5 class="card-title mb-1">You Pay</h5>
@@ -279,6 +384,7 @@
 
             </div>
         </div>
+    </div>
         <!-- row -->
         <div class="row mt-5">
             <div class="col green-info px-3 py-5">
@@ -347,6 +453,7 @@
             
 
     <div class="footer pt-5 px-3">
+        <!--
         <h2 class="footer-title">EV Drivers</h2>
         <ul class="footer-detail font-color">
             <li>Login</li>
@@ -367,6 +474,7 @@
             <li>Installers</li>
             <li>Authorised Resellers</li>
         </ul>
+    -->
         <hr>
         <div class="social-icon">
             <image src="./assets/img/social-icon-twitter.svg"></image>

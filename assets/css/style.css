@@ -51,7 +51,7 @@ body {
 
   .card {
     border-radius: 4px;
-
+    padding: 0px 0px 0px 0px;
     background-color: #ffffff;
   }
 
@@ -219,4 +219,21 @@ body {
     top:0;
     background-color: white;
     z-index: 1;
+  }
+
+  .btn-pre-book {
+    margin-top: 240px;
+  }
+  
+  .btn-read {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    border-radius: 4px;
+    padding: 0px 140px 0px 140px;
+    background-color: #fde8ea;
+    color:#f4263d;
   }
