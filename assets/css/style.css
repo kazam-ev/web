@@ -253,3 +253,59 @@ body {
     background-color: #fde8ea;
     color:#f4263d;
   }
+
+  .background-red {
+    background-color: #f4263d;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .user-review-content {
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    color: #959595;
+  }
+  
+  .user-review-quote {
+    font-family: Inter;
+    font-size: 120px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #959595;
+  }
+
+  .user-name {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+  
+  .user-location {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.17;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .crousel-img {
+    height: 170px;
+    width: 232px;
+  }
