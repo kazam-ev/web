@@ -73,7 +73,12 @@
                 <br>
                     <div class="float-center">
                         <div class="input-group mb-3 number-form">
-                            c
+                            <form id="myForm">
+                                <input type="text" class="form-control" id="numberInput" placeholder="Enter Phone Number" name="phone_number">
+                            </form>
+                            <div class="input-group-append">
+                                <button class="btn btn-danger" type="submit" id="getaquote" data-toggle="modal"  onclick="SubForm()">Get A Quote</button>
+                            </div>
                         </div>
                         <p id="errormsg" class="text-white"></p>
                     </div>
