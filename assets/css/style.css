@@ -335,10 +335,6 @@ padding: 30px 0px 0 168px;
     background-color: #dc3545;
     color: white;
   }
-
-  .menu {
-    margin: 10px 0px 0px 296px;
-  }
   
   .nav {
     color:white;
@@ -346,7 +342,7 @@ padding: 30px 0px 0 168px;
     top:0px;
     background-color: black;
     z-index: 1;
-    padding: 0px 115px 20px 115px;
+    padding: 0px 115px 0px 115px;
   }
 
 .separator {
@@ -480,7 +476,7 @@ padding: 30px 0px 0 168px;
   margin: -10px 0 0px -100px;
 }
 .kazam-lite-image {
-  padding: 144px 0px 0px 200px;
+  width: 600px;
 }
 
 .green-info,
@@ -556,7 +552,6 @@ padding: 30px 0px 0 168px;
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
-  padding-left: 350px;
 }
 
 .menu li{

@@ -14,56 +14,54 @@
     <title>Kazam: Everything about electric cars, electric bikes and electric vehicle charging stations</title>
 </head>
 <body>
-    <div class="gradient">
-   
-    <div class="row align-items-center nav">
-            <div class="col mt-2">
-                <ul class="logo">
-                    <li>
-                        <a href="index.html">
-                            <image src="assets/img/kazam-logo.svg"></image>
-                        </a>
-                    </li>
-                    <li>
-                        <p class="tagline">everything electric</p>
-                    </li>
-                </ul>
-            </div>
-            <ul class="menu">
-                <li>
-                    <a href="./kazam_lite_detail.html">Product</a>
-                </li>
-                <!--
-                <li>Installation</li>
-                <li>News & Reviews</li>
-                <li>EVs</li>
-                <li>Store</li>
-                -->
-            </ul>
-            <div class="col  mt-2 text-right">
-                <button class="btn book-charging">Buy Charging station</button>
-            </div>
-    </div>
 
-    <div class="row">
-        <div class="col top-banner">
-            <img class="header-image" src = "./assets/img/header-img-desktop1.png" />
-            <p class="text-white text-center m-0 banner-text-title">Want to get a charging station</p>
-            <p class="text-white text-center banner-text-subtitle">Let our experts help you</p>
-            <form id="form">
-                <div class="input-group number-form user-input">
-                    
-                    <input type="text" class="form-control placeholder" id="numberInput" placeholder="Enter Phone Number">
-                    <button class="btn btn-danger ml-1" type="submit" id="getaquote" onclick="myFunction()">Contact Us</button>
-                    
-                </div>
-            </form>
-            <p id="errormsg" class="text-white"></p>
+    <div class="row align-items-center nav">
+        <div class="col mt-2">
+            <ul class="logo">
+                <li>
+                    <a href="index.html">
+                        <image src="assets/img/kazam-logo.svg"></image>
+                    </a>
+                </li>
+                <li>
+                    <p class="tagline">everything electric</p>
+                </li>
+            </ul>
+        </div>
+        <ul class="menu">
+            <li>
+                <a href="./kazam_lite_detail.html">Product</a>
+            </li>
+            <!--
+            <li>Installation</li>
+            <li>News & Reviews</li>
+            <li>EVs</li>
+            <li>Store</li>
+            -->
+        </ul>
+        <div class="col  mt-2 text-right">
+            <button class="btn book-charging">Buy Charging station</button>
         </div>
     </div>
-    
-    
-    
+    <div class="gradient">
+        <!--Top banner-->
+        <div class="row">
+            <div class="col top-banner">
+                <img class="header-image" src = "./assets/img/header-img-desktop1.png" />
+                <p class="text-white text-center m-0 banner-text-title">Want to get a charging station</p>
+                <p class="text-white text-center banner-text-subtitle">Let our experts help you</p>
+                <form id="form">
+                    <div class="input-group number-form user-input">
+                        
+                        <input type="text" class="form-control placeholder" id="numberInput" placeholder="Enter Phone Number">
+                        <button class="btn btn-danger ml-1" type="submit" id="getaquote" onclick="myFunction()">Contact Us</button>
+                        
+                    </div>
+                </form>
+                <p id="errormsg" class="text-white"></p>
+            </div>
+        </div>
+        <!--/Top banner-->
         <!--Image Slider -->
         <div class="row image-slider">
             <div class="col">
@@ -96,7 +94,6 @@
             </div>
             
         </div>
-        
         <!--/Image slider-->
     </div>
     
@@ -107,11 +104,15 @@
                     <img class="d-block kazam-lite-image" src="./assets/img/kazam-lite.png" alt="user-picture">
                 </div>
                 <div class="col-6 float-right">
-                    <h1 class="text-white" style= "margin-top:50px;">Introducing Kazam Charging Station</h1>  
-                    <h6 class="text-white">3.3 kW 3 pin smart IOT charger </h6>
-                    <p class="sub-title text-white" style="margin-top:20px;"><b>Starting at</b> <span class="ml-2 text-danger lite-price">11,450 </span><del class="ml-2 lite-price">18,500</del></p>
-                    <hr style="border: solid 1px #ffffff;">
-                    <p class="sub-title text-white">The Pro series is the latest  generation of compact AC for all communities Residential societies, offices & malls and charging point operators.</p>
+                    <div class="row align-items-center">
+                        <div>
+                            <h1 class="text-white" style= "margin-top:50px;">Introducing Kazam Charging Station</h1>  
+                            <h6 class="text-white">3.3 kW 3 pin smart IOT charger </h6>
+                            <p class="sub-title text-white" style="margin-top:20px;"><b>Starting at</b> <span class="ml-2 text-danger lite-price">11,450 </span><del class="ml-2 lite-price">18,500</del></p>
+                            <hr style="border: solid 1px #ffffff;">
+                            <p class="sub-title text-white">The Pro series is the latest  generation of compact AC for all communities Residential societies, offices & malls and charging point operators.</p>
+                        </div>
+                    </div>
                     <div style= "margin-top:60px;">
                         <div class="row align-items-center">
                             <div class="bg-product-detail">
@@ -124,7 +125,7 @@
                             </div>
                         </div>
                     </div>
-                    <div style= "padding-top:10px;"></div>
+                    <div style= "padding-top:10px;">
                         <div class="row align-items-center">
                             <div class="bg-product-detail">
                                 <img class = "float-left" src="./assets/img/kazam-lite-icon2.svg">
