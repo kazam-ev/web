@@ -330,3 +330,15 @@ body {
     height: 170px;
     width: 232px;
   }
+
+  .btn-pre-book {
+    background-color: #f4263d;
+    margin-top: 240px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+  }
