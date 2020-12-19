@@ -277,7 +277,6 @@ body {
 
   .background-red {
     background-color: #f4263d;
-    margin: 0px 0px 0px 0px;
   }
 
   .user-review-content {
@@ -286,8 +285,8 @@ body {
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
-    text-align: left;
     color: #959595;
+    margin-top: -70px;
   }
   
   .user-review-quote {
@@ -298,8 +297,8 @@ body {
     font-style: normal;
     line-height: 1.19;
     letter-spacing: normal;
-    text-align: left;
     color: #959595;
+    text-align:center;
   }
 
   .user-name {
@@ -341,4 +340,8 @@ body {
     font-style: normal;
     line-height: 1.22;
     letter-spacing: normal;
+  }
+
+  .lite-price {
+    font-size: 24px;
   }
