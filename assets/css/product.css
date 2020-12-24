@@ -13,7 +13,7 @@ body {
     font-family: Lato;
     font-style: normal;
     font-weight: 900;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 48px;
     color: #FFFFFF;
 }
@@ -26,13 +26,13 @@ body {
     line-height: 26px;
     color: rgba(255, 255, 255, 0.7);
     list-style:none;
+    margin-top:20px;
 }
 .btn-pre-books {
     border-radius: 25px;
     background-color: #EB5757;
     font-family: Lato;
     font-size: 18px;
-    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.22;
