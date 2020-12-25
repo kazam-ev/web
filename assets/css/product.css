@@ -27,14 +27,13 @@ body {
     line-height: 26px;
     color: rgba(255, 255, 255, 0.7);
     list-style:none;
-    padding: 0px 0 0px 100px;
 }
+
 .btn-pre-books {
     border-radius: 25px;
     background-color: #EB5757;
     font-family: Lato;
     font-size: 18px;
-    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.22;
