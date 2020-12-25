@@ -55,12 +55,8 @@ body {
     background-repeat: no-repeat;
     min-width:1365px;
     min-height:828px;
-    opacity: 0.6;
 }
 
-.car-text {
-   z-index:1;
-}
 .parking {
     background-image: url('/assets/img/product/cars.png');
     background-size: cover;
