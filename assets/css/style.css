@@ -556,7 +556,7 @@ padding: 30px 0px 0 168px;
 }
 
 .menu li{
-  padding-left: 20px;
+  padding-left: 600px;
   font-family: Lato;
   font-size: 12px;
   font-weight: bold;
@@ -566,6 +566,7 @@ padding: 30px 0px 0 168px;
   letter-spacing: normal;
   text-align: left;
   color: #ffffff;
+  padding-top:20px;
 }
 
 .menu li a{
