@@ -7,6 +7,7 @@ body {
 .star {
     background-image: url('/assets/img/product/star.svg');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .star p {
@@ -37,7 +38,6 @@ body {
     font-style: normal;
     line-height: 1.22;
     letter-spacing: normal;
-    padding: 10px 40px 10px 40px;
 }
 
 .scooter {
