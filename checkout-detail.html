@@ -14,73 +14,73 @@
     <title>Kazam</title>
 </head>
 <body class="checkout-body">
+    <include src="./templates/slick_nav.html"></include>
     <div class="row align-items-center nav">
         <div class="col mt-2">
-            <ul class="logo">
-                <li>
-                    <a href="index.html">
-                        <image src="./assets/img/kazam-logo.svg" alt="electric car and electric bike"></image>
-                    </a>
-                </li>
-            </ul>
+            <p class="Kazam">KAZAM<span class="tagline">everything electric</span></p>
         </div>
         <ul class="menu">
             <li>
                 <a href="./kazam_lite_detail.html">Product</a>
             </li>
-            <!--
-            <li>Installation</li>
-            <li>News & Reviews</li>
-            <li>EVs</li>
-            <li>Store</li>
-            -->
         </ul>
         <div class="col  mt-2 text-right">
-            <button class="btn book-charging">Buy Charging station</button>
+            <button class="btn book-charging">Book Charging station</button>
         </div>
     </div>
+    <div class="row checkout-body">
 
     <!--Kazam lite-->
     <div class="row border border-secondary checkout-body">
         <div class="col-12">
             <div class="row">
-            <div class="col-4">
-                <img class="d-block product-checkout-image" src="./assets/img/checkout/product-checkout.png" alt="electric car and electric bike">
-            </div>
-            <div class="col-4">
-                <h1 class="text-white" style= "margin-top:50px;">Introducing Kazam Charging Station</h1>  
-                <h6 class="text-white">3.3 kW 3 pin smart IOT charger </h6>
-                <p class="sub-title text-white" style="margin-top:20px;"><b>Starting at</b> <span class="ml-2 text-danger lite-price">11,900 </span><del class="ml-2 lite-price">18,500</del></p>
-                <hr style="border: solid 1px #ffffff;">
-                <p class="sub-title text-white">Kazam charging station is India's first intelligent IOT based Chargin Station that serves as the best solution for charging needs of residential societies, offices, malls, restaurants, shops and petrol pumps. Use our analytics interface to track units charged and money earned</p>
-        
-            </div>
-            <div class="col-4">
+            <div class="col-6">
                 <div class="card bdr-95 w-50 text-center bg-secondary my-5">
                     <div class="card-body"> 
-                        
+                        <h3>Delivery Address</h3>
+                        <input type="number" placeholder="Enter Phone Number">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Address">
+                        <input type="text" placeholder="Zip Code">
+                        <input type="text" placeholder="State">
+                        <input type="text" placeholder="City">
                     </div>
                 </div>
-                <div class="card bdr-95 w-100 text-center bg-secondary">
+                <div class="card bdr-95 w-50 text-center bg-secondary my-5">
                     <div class="card-body"> 
-                        <p>Price<span>9,890</span></p>
-                        <p>Coupon<span>0</span></p>
-                        <hr>
-                        <p>Final Price<span>9,890</span></p>
-                        <div class="number">
-                            <span class="minus">-</span>
-                            <input type="text" value="1"/>
-                            <span class="plus">+</span>
-                        </div>
-                        <button type="button" class="btn text-white shadow mb-5 btn-pre-book" style= "margin-top:50px;padding: 5px 50px 5px 50px;" onclick="location.href='https://www.kazam.in/kazam_lite_detail.html'">Pre-Order @ Rs.99</button>      
+                        <h3>Previous Address</h3>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="optradio">Vaibhav, 9871669587
+                              18-A, pocket F, Gtb Enclavo, Delhi-63, harsh Vihar, Delhi, 110093
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <label class="form-check-label">
+                              <input type="radio" class="form-check-input" name="optradio">Vaibhav, 9871669587
+                              18-A, pocket F, Gtb Enclavo, Delhi-63, harsh Vihar, Delhi, 110093
+                            </label>
+                          </div>
                     </div>
                 </div>
             </div>
-            </div>s
+            <div class="col-6">
+                <div class="card bdr-95 w-100 text-center bg-secondary">
+                    <div class="card-body"> 
+                        <p>Orders Detail x1<span>11,450</span></p>
+                        <p>Amount Payable<span>11,450</span></p>
+                      
+                        <button type="button" class="btn text-white shadow mb-5 btn-pre-book" style= "margin-top:50px;padding: 5px 50px 5px 50px;" onclick="location.href='https://www.kazam.in/kazam_lite_detail.html'">Place Order</button>      
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
     </div>
     <!--/Kazam lite-->
-
+        
+    </div>
     <!--Inbuild Js Bootstrap-->
     <script>
         	$(document).ready(function() {
