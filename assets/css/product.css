@@ -44,7 +44,7 @@ body {
     background-image: url('/assets/img/product/scooter.png');
     background-size: cover;
     background-repeat: no-repeat;
-    min-width:482.5px;
+    min-width:445px;
     min-height:358px;
 }
 
@@ -52,15 +52,15 @@ body {
     background-image: url('/assets/img/product/electric car1.png');
     background-size: cover;
     background-repeat: no-repeat;
-    min-width:698px;
-    min-height:371px;
+    min-width: 445px;
+    min-height: 371px;
 }
 
 .parking {
     background-image: url('/assets/img/product/cars.png');
     background-size: cover;
     background-repeat: no-repeat;
-    min-width:481px;
+    min-width:445px;
     min-height:424px;
     opacity:0.8;
 }
@@ -78,7 +78,7 @@ body {
     background-image: url('/assets/img/product/nature.png');
     background-size: cover;
     background-repeat: no-repeat;
-    min-width:738px;
+    min-width:445px;
     min-height:550px;
 }
 
@@ -260,7 +260,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     min-height:795px;
-    min-width:475px;
+    min-width:445px;
 }
 
 .easy-installation-image {
@@ -268,7 +268,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     min-height:675px;
-    min-width:429px;
+    min-width:445px;
 }
 
 .technical-specification p {
