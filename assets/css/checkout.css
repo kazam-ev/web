@@ -29,3 +29,19 @@ input{
 .bg-card {
     background-color: #5c5c5c;
 }
+
+.apply{
+    background-color: #000000; 
+    border: 0px;
+    width: 42px;
+    height: 19px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
