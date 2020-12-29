@@ -14,64 +14,100 @@
     <title>Kazam</title>
 </head>
 <body class="checkout-body">
-    <include src="./templates/slick_nav.html"></include>
     <div class="row align-items-center nav">
         <div class="col mt-2">
-            <p class="Kazam">KAZAM<span class="tagline">everything electric</span></p>
+            <ul class="logo">
+                <li>
+                    <a href="index.html">
+                        <image src="./assets/img/kazam-logo.svg" alt="electric car and electric bike"></image>
+                    </a>
+                </li>
+            </ul>
         </div>
         <ul class="menu">
             <li>
                 <a href="./kazam_lite_detail.html">Product</a>
             </li>
+            <!--
+            <li>Installation</li>
+            <li>News & Reviews</li>
+            <li>EVs</li>
+            <li>Store</li>
+            -->
         </ul>
         <div class="col  mt-2 text-right">
-            <button class="btn book-charging">Book Charging station</button>
+            <button class="btn book-charging">Buy Charging station</button>
         </div>
     </div>
-    <div class="row checkout-body">
 
     <!--Kazam lite-->
     <div class="row border border-secondary checkout-body">
         <div class="col-12">
             <div class="row">
-            <div class="col-6">
-                <div class="card bdr-95 w-50 text-center bg-secondary my-5">
-                    <div class="card-body"> 
-                        <h3>Delivery Address</h3>
-                        <input type="number" placeholder="Enter Phone Number">
-                        <input type="text" placeholder="Name">
-                        <input type="text" placeholder="Email">
-                        <input type="text" placeholder="Address">
-                        <input type="text" placeholder="Zip Code">
-                        <input type="text" placeholder="State">
-                        <input type="text" placeholder="City">
-                    </div>
-                </div>
-                <div class="card bdr-95 w-50 text-center bg-secondary my-5">
-                    <div class="card-body"> 
-                        <h3>Previous Address</h3>
-                        <div class="form-check">
-                            <label class="form-check-label">
-                              <input type="radio" class="form-check-input" name="optradio">Vaibhav, 9871669587
-                              18-A, pocket F, Gtb Enclavo, Delhi-63, harsh Vihar, Delhi, 110093
-                            </label>
-                          </div>
-                          <div class="form-check">
-                            <label class="form-check-label">
-                              <input type="radio" class="form-check-input" name="optradio">Vaibhav, 9871669587
-                              18-A, pocket F, Gtb Enclavo, Delhi-63, harsh Vihar, Delhi, 110093
-                            </label>
-                          </div>
-                    </div>
-                </div>
+            <div class="col-8 float-left first-div">
             </div>
-            <div class="col-6">
-                <div class="card bdr-95 w-100 text-center bg-secondary">
+            <div class="col-4 float-center second-div">
+                <div class="card bg-card">
+                    <div class="card-body">                  
+                        <div class="input-group">
+                            <input type="text" class="form-control coupon-input" placeholder="Enter coupon code here" aria-label="Recipient's username" aria-describedby="basic-addon2" >
+                            <div class="input-group-append">
+                                <span class="input-group-text apply" id="basic-addon2">Apply</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bdr-95 w-80 text-center bg-card mt-5">
                     <div class="card-body"> 
-                        <p>Orders Detail x1<span>11,450</span></p>
-                        <p>Amount Payable<span>11,450</span></p>
-                      
-                        <button type="button" class="btn text-white shadow mb-5 btn-pre-book" style= "margin-top:50px;padding: 5px 50px 5px 50px;" onclick="location.href='https://www.kazam.in/kazam_lite_detail.html'">Place Order</button>      
+                        <div class="col-12">
+                            <div class="row price">
+                                 <div class="col-6" style="text-align: left;">
+                                    <p>Price</p>
+                                 </div>
+                                 <div class="col-6" style="text-align: right;">
+                                    <p>9,890</p>
+                                </div>
+                             </div>
+                         </div>
+                         <div class="col-12">
+                            <div class="row price">
+                                 <div class="col-6" style="text-align: left;">
+                                    <p>Coupon</p>
+                                 </div>
+                                 <div class="col-6" style="text-align: right;">
+                                    <p>0</p>
+                                </div>
+                             </div>
+                         </div>
+                         <hr>
+                         <div class="col-12">
+                            <div class="row final-Price">
+                                 <div class="col-6" style="text-align: left;">
+                                    <p>Final Price</p>
+                                 </div>
+                                 <div class="col-6" style="text-align: right;">
+                                    <p>9,890</p>
+                                </div>
+                             </div>
+                         </div>
+                        <div class="col-12 mt-5">
+                            <div class="row">
+                                 <div class="col-6">
+                                     <div class="input-group">
+                                         <span class="input-group-btn">
+                                             <button type="button" class="quantity-left-minus btn btn-number rounded-circle btn-plus"  data-type="minus" data-field="">+</button>
+                                         </span>
+                                         <input type="text" id="quantity" name="quantity" class="form-control input-number" value="1" min="1" max="100">
+                                         <span class="input-group-btn">
+                                             <button type="button" class="quantity-right-plus btn btn-number rounded-circle btn-minus" data-type="plus" data-field="">-</button>
+                                         </span>
+                                     </div>
+                                 </div>
+                                 <div class="col-6">
+                                     <button type="button" class="btn shadow text-white w-100 btn-pre-book" onclick="location.href='https://kazam.in/checkout_detail.html'" style="margin-top:0px; font-size:14px;">Pre-Book @ Rs.900</button>      
+                                 </div>
+                             </div>
+                         </div>
                     </div>
                 </div>
             </div>
@@ -79,28 +115,8 @@
         </div>
     </div>
     <!--/Kazam lite-->
-        
-    </div>
-    <!--Inbuild Js Bootstrap-->
-    <script>
-        	$(document).ready(function() {
-			$('.minus').click(function () {
-				var $input = $(this).parent().find('input');
-				var count = parseInt($input.val()) - 1;
-				count = count < 1 ? 1 : count;
-				$input.val(count);
-				$input.change();
-				return false;
-			});
-			$('.plus').click(function () {
-				var $input = $(this).parent().find('input');
-				$input.val(parseInt($input.val()) + 1);
-				$input.change();
-				return false;
-			});
-		});
-    </script>
 
+    <!--Inbuild Js Bootstrap-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
