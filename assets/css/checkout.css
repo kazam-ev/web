@@ -10,28 +10,6 @@
     max-height: 232px; 
 }
 
-.minus, .plus{
-    width:20px;
-    height:20px;
-    background:#f2f2f2;
-    border-radius:4px;
-    padding:8px 5px 8px 5px;
-    border:1px solid #ddd;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-}
-input{
-    height:34px;
-    width: 50px;
-    text-align: center;
-    font-size: 15px;
-    border:1px solid #ddd;
-    border-radius:4px;
-    display: inline-block;
-    vertical-align: middle;
-} 
-
 .bg-card {
     background-color: #5c5c5c;
 }
@@ -101,11 +79,14 @@ input{
     line-height: 1.22;
     letter-spacing: normal;
     color: #959595;
+    text-align:center;
 }
 
 .btn-plus {
    background-color:#626262;
    color:black;
+   font-weight:bolder;
+   font-size: 18px;
    width: 48px;
    height: 48px;
 }
@@ -113,6 +94,10 @@ input{
 .btn-minus {
     background-color:#626262;
     color:black;
+    font-weight:bolder;
+    font-size: 18px;
+    width: 48px;
+    height: 48px;
  }
 
  .final-Price {
