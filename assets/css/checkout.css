@@ -25,3 +25,7 @@ input{
     display: inline-block;
     vertical-align: middle;
 } 
+
+.bg-card {
+    background-color: #5c5c5c;
+}
