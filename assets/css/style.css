@@ -271,6 +271,22 @@ padding: 30px 0px 0 168px;
     color: white;
   }
   
+  #book.scrolled {
+    border-radius: 37px;
+    border: solid 1px #ffffff;
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    padding: 10px 15px 10px 15px;
+    background-color: #dc3545;
+    color: white;
+  }
+
   .nav {
     color:white;
     position: sticky;
@@ -490,7 +506,7 @@ padding: 30px 0px 0 168px;
 }
 
 .menu li{
-  padding-left: 600px;
+  padding-left: 660px;
   font-family: Lato;
   font-size: 12px;
   font-weight: bold;

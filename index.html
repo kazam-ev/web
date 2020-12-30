@@ -31,6 +31,19 @@
     <meta name="theme-color" content="#ffffff">
 
     <title>Kazam: Everything about electric cars, electric bikes and electric vehicle charging stations</title>
+    <script>
+        $(document).ready(function(){       
+        var scroll_pos = 0;
+        $(document).scroll(function() { 
+            scroll_pos = $(this).scrollTop();
+            if(scroll_pos > 50) {
+                $('.book-charging').css('background-color', '#dc3545');
+            } else {
+                $('.book-charging').css('background-color', '#fff');
+            }
+        });
+    });
+    </script>
 </head>
 <body>
 
@@ -55,8 +68,8 @@
             <li>Store</li>
             -->
         </ul>
-        <div class="col  mt-2 text-right">
-            <button class="btn book-charging">Buy Charging station</button>
+        <div id="book" class="col  mt-2 text-right">
+            <button class="btn book-charging ">Buy Charging station</button>
         </div>
     </div>
     <div class="gradient">
