@@ -48,6 +48,27 @@ body {
     min-width:1125px;
     min-height:835px
 }
+.rel {
+    position: relative;
+}
+
+.svgRotate {
+    transform: rotate(-90deg);
+    transform-origin: center;
+    height: 65px;
+    width: 400px;
+}
+
+.svg1 {
+    position: absolute;
+    left: -40px;
+}
+
+.svg2 {
+    position: absolute;
+    right: -192px;
+    z-index: 1;
+}
 
 .car {
     background-image: url('/assets/img/product/electric car 1.png');
@@ -255,6 +276,13 @@ body {
     min-width:1365px;
 }
 
+.easy-installation-image {
+    background-image: url('/assets/img/product/easy-installation.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:826px;
+    min-width:1365px;
+}
 .technical-specification p {
     font-family: Lato;
     font-style: normal;
