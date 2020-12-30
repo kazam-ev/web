@@ -188,69 +188,9 @@ body {
     color: #1a1a1a;
   }
 
-  .footer {
-    width: 100%;
-    margin: 42px 0 0;
-    background-color: #f8f8f8;
-  }
-
-  .footer-title {
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1.22;
-    color: #1a1a1a;
-  }
-
-  .footer-detail {
-    list-style: none;
-    margin: 0 0 20px;
-    padding: 0;
-  }
-  .footer-detail li {
-    margin-bottom: 5px;
-  }
-
-  .copyright {
-    font-family: Lato;
-    font-size: 12px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.25;
-    letter-spacing: normal;
-    text-align: center;
-    color: #959595;
-  }
-
-  .social-icon {
-    text-align: center;
-  }
-
+  
   .header {
     background-color: white;
-  }
-
-  .Kazam {
-    margin: 0;
-    font-family: Lato;
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1.2;
-    color: #1a1a1a;
-  }
-
-  .tagline {
-    opacity: 0.8;
-    font-family: Lato;
-    font-size: 11px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.18;
-    letter-spacing: normal;
-    text-align: left;
-    color: #1a1a1a;
   }
 
   .banner {
@@ -375,6 +315,66 @@ body {
     font-size: 24px;
   }
 
+  .footer {
+    width: 100%;
+    margin: 42px 0 0;
+    background-color: #f8f8f8;
+  }
+
+  .footer-title {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.22;
+    color: #1a1a1a;
+  }
+
+  .footer-detail {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+  }
+  .footer-detail li {
+    margin-bottom: 5px;
+  }
+
+  .copyright {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #959595;
+  }
+
+  .social-icon {
+    text-align: center;
+  }
+
+  .Kazam {
+    margin: 0;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: #1a1a1a;
+  }
+
+  .tagline {
+    opacity: 0.8;
+    font-family: Lato;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1a1a1a;
+  }
   .privacy p{
     font-family: Lato;
     font-size: 14px;
