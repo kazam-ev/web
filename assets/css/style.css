@@ -692,8 +692,11 @@ padding: 30px 0px 0 168px;
   line-height: 1.44;
   letter-spacing: normal;
   text-align: left;
-  color: #ffffff;
   text-decoration: none;
+}
+
+.about-us h6 {
+  color:#ffffff;
 }
 
 .about-us:hover 
