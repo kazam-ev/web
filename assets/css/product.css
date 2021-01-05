@@ -4,6 +4,13 @@ body {
     background: radial-gradient(closest-side, #325289, #02060F);
 }
 
+.fix-nav {
+    top: 0;
+    position: sticky;
+    z-index: 3;
+    background-image: linear-gradient(to bottom, #071e46, #02060F 67%, rgba(26, 26, 26, 0));
+}
+
 .star {
     background-image: url('/assets/img/product/star.svg');
     background-repeat: no-repeat;
