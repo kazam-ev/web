@@ -41,8 +41,8 @@ body {
 }
 
 .scooter {
-    background-image: url('/assets/img/product/scooter.png');
-    background-size: cover;
+    background-image: url('/assets/img/product/scooter.jpg');
+    background-size: contain;
     background-repeat: no-repeat;
     min-width:445px;
     min-height:358px;
