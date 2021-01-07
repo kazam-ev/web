@@ -3,3 +3,4 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/kazam.in/desktop/web/
+    
