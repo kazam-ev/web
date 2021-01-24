@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+     <!--Google analytics-->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-07LXT66F8C"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-07LXT66F8C'); </script>
+     <!--/Google analytics-->
     <!--Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -76,13 +79,46 @@
             */
         </script>
 
+        <script>
+            /* Set the width of the side navigation to 250px */
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "100%";
+            }
+
+            /* Set the width of the side navigation to 0 */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
   
  
 
 
 </head>
 <body>
+
     <div class="row nav shadow logo">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul>
+                <li><a href="#" class="dropdown-toggle dropright" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <li class="dropdown">Resturants</li>
+                        <li class="dropdown">Hotel</li>
+                        <li class="dropdown">Office</li>
+                    </ul>
+                </li>
+                <li><a href="#">News & Reviews</a></li>
+                <li><a href="./about-us.html">About Us</a></li>
+                <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+                <li><a href="./return-policy.html">Return Policy</a></li>
+                <li><a href="./terms-of-use.html">Terms Of Use</a></li>
+            </ul>
+        </div>
+          
+        <!-- Use any element to open the sidenav -->
+        <span onclick="openNav()"><img src="./assets/img/menu.svg" style="padding-top: 10px; padding-left: 20px;"></span>
+
         <div class="col my-2">
             <a href="/">
                 <image style="width:85px;" src="./assets/img/logo/kazam-logo-black.png" alt="electric car and electric bike"></image>            </a>
@@ -91,6 +127,7 @@
             <button class="btn book-charging" onclick="location.href='./kazam_lite_detail.html'">Book Charging station</button>
         </div>
     </div>
+
     <div class="container">
         
 
