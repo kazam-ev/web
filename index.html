@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!--Google analytics-->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-07LXT66F8C"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-07LXT66F8C'); </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-07LXT66F8C"></script>
+    <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-07LXT66F8C'); </script>
     <!--/Google analytics-->
     <!--Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Electric Cars, Electric Bikes and Electric Vehicle Charging Stations- Kazam provides end to end solution to all customer needs in Electric Vehicle ecosystem from choosing the right vehicle for them to fulfilling their charging needs">
+    <meta name="description"
+        content="Electric Cars, Electric Bikes and Electric Vehicle Charging Stations- Kazam provides end to end solution to all customer needs in Electric Vehicle ecosystem from choosing the right vehicle for them to fulfilling their charging needs">
 
     <!--bootstrap css included-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/checkout.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
@@ -24,7 +28,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="./favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
@@ -34,335 +38,248 @@
     <meta name="theme-color" content="#ffffff">
 
     <title>Kazam: Everything about electric cars, electric bikes and electric vehicle charging stations</title>
-  
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-</head>
-<body>
 
-    <div class="row align-items-center nav">
-        <div class="col mt-2">
-            <ul class="logo">
-                <li>
-                    <a href="/">
-                        <image src="./assets/img/logo/kazam-logo.svg" alt="electric car and electric bike"></image>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <ul class="menu">
-            <li>
-                <a href="./kazam_lite_detail.html">Product</a>
-                <a class="ml-5" href="https://www.kazam.in/category/">News & Reviews</a>
-            </li>
-        </ul>
-        <div class="col  mt-2 text-right">
-            <button id="book" class="btn book-charging " onclick="window.location.href='./kazam_lite_detail.html'">Buy Charging station</button>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <div class="container-fluid nav-sticky">
+        <div class="row align-items-center nav">
+            <div class="col py-2">
+                <a href="/" class="logo">
+                    <image src="./assets/img/logo/kazam-logo.svg" alt="electric car and electric bike"></image>
+                </a>
+            </div>
+            <nav class="col col-8 d-flex justify-content-end">
+                <ul class="menu">
+                    <li>
+                        <a href="#" class="dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li href="#" class="dropdown-item">Resturants</li>
+                            <li href="#" class="dropdown-item">Hotels</li>
+                            <li href="#" class="dropdown-item">Offices</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="ml-5" href="./kazam_lite_detail.html">Product</a>
+                    </li>
+                    <li>
+                        <a class="ml-5" href="https://www.kazam.in/category/">News & Reviews</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="col text-right">
+                <button id="book" class="btn book-charging "
+                    onclick="window.location.href='./kazam_lite_detail.html'">Buy Charging station</button>
+            </div>
         </div>
     </div>
-    <div class="gradient">
-        <!--Top banner-->
-        <div class="row top-banner">
-          
-            <div class="col" style="position:absolute; z-index:-1;">
-                <div id="headercarousel" class="carousel slide" data-ride="carousel" style="position:relative;">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="header-image" src = "./assets/img/header-slider/banner1.jpg" alt="electric car and electric bike" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="header-image" src = "./assets/img/header-slider/banner2.jpeg" alt="electric car and electric bike" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="header-image" src = "./assets/img/header-slider/banner3.jpeg" alt="electric car and electric bike" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="header-image" src = "./assets/img/header-slider/banner4.jpeg" alt="electric car and electric bike" />
+    <!-- /navbar -->
+
+    <!-- Top Banner -->
+    <div class="container-fluid gradient">
+        <div class="row">
+            <div class="col px-0">
+                <div class="top-banner">
+                    <!-- carousel -->
+                    <div id="headercarousel" class="carousel slide" data-ride="carousel"
+                        style="position:relative;z-index:-1; height:100%; width:100%">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="img-fluid" src="./assets/img/header-slider/banner1.jpg"
+                                    alt="electric car and electric bike" />
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="./assets/img/header-slider/banner2.jpeg"
+                                    alt="electric car and electric bike" />
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="./assets/img/header-slider/banner3.jpeg"
+                                    alt="electric car and electric bike" />
+                            </div>
+                            <div class="carousel-item">
+                                <img class="img-fluid" src="./assets/img/header-slider/banner4.jpeg"
+                                    alt="electric car and electric bike" />
+                            </div>
                         </div>
                     </div>
-                    <div class="" style="z-index:-1;" >
+                    <!-- form -->
+                    <div class="topform">
                         <p class="text-white text-center m-0 banner-text-title">Want to get a charging station</p>
                         <p class="text-white text-center banner-text-subtitle">Let our experts help you</p>
                         <form method="post" autocomplete="off" name="submit-to-google-sheet">
                             <div class="input-group user-input">
-                                
-                                <input type="text" class="form-control placeholder" id="numberInput" placeholder="Enter Phone Number" name="phone_number" required=""/>
+                                <input type="text" class="form-control placeholder" id="numberInput"
+                                    placeholder="Enter Phone Number" name="phone_number" required="" />
                                 <button class="btn btn-danger ml-1" type="submit" id="getaquote">Contact</button>
-                                
                             </div>
                         </form>
                         <p id="errormsg" class="text-white"></p>
                     </div>
                 </div>
-               
             </div>
-            
         </div>
-        <!--/Top banner-->
-        <!--Image Slider -->
-        <div class="row image-slider">
+
+        <div class="row">
+            <div class="col-10">
+
+            </div>
+            <div class="col-2" style="text-align: center;">
+                <image src="./assets/img/phone.svg"></image>
+                <p class="missedcall">
+                    Hi, leave a missed call at <span style="color:#f4263d"><strong>011-422-13155</strong></span> and our team will get in touch
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
             <div class="col">
-                <div class="container">
-                    <div id="imagecarousel" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="./assets/img/image-slider1.png" class="d-block w-100" alt="electric car and electric bike">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/image-slider2.png" class="d-block w-100" alt="electric car and electric bike">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/image-slider4.png" class="d-block w-100" alt="electric car and electric bike">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="./assets/img/image-slider5.png" class="d-block w-100" alt="electric car and electric bike">
-                        </div>
+                <div class="image-slider">
+                    <div class="container">
+                        <div id="imagecarousel" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/img/image-slider1.png" class="d-block w-100"
+                                        alt="electric car and electric bike">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/image-slider2.png" class="d-block w-100"
+                                        alt="electric car and electric bike">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/image-slider4.png" class="d-block w-100"
+                                        alt="electric car and electric bike">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/image-slider5.png" class="d-block w-100"
+                                        alt="electric car and electric bike">
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <a class="carousel-control-prev" href="#imagecarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#imagecarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
-                <a class="carousel-control-prev" href="#imagecarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#imagecarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-                </a>
             </div>
-            
         </div>
-        <!--/Image slider-->
     </div>
-    
-        <!--Kazam lite-->
+
+    <!--Kazam lite product-->
+    <div class="container-fluid">
         <div class="row border border-secondary checkout-body">
             <div class="col">
                 <div class="col-6 float-left">
-                    <img class="d-block kazam-lite-image" src="./assets/img/kazam-lite.png" alt="electric car and electric bike">
+                    <img class="d-block kazam-lite-image" src="./assets/img/kazam-lite.png"
+                        alt="electric car and electric bike">
                 </div>
                 <div class="col-6 float-right">
                     <div class="row align-items-center">
                         <div>
-                            <h1 class="text-white" style= "margin-top:50px;">Introducing Kazam Charging Station</h1>
+                            <h1 class="text-white" style="margin-top:50px;">Introducing Kazam Charging Station</h1>
                             <h6 class="text-white">3.3 kW 3 pin smart IoT charger </h6>
-                            <p class="sub-title text-white" style="margin-top:20px;"><b>Starting at</b> <span class="ml-2 text-danger lite-price">11,450 </span><del class="ml-2 lite-price">18,500</del></p>
+                            <p class="sub-title text-white" style="margin-top:20px;"><b>Starting at</b> <span
+                                    class="ml-2 text-danger lite-price">11,450 </span><del
+                                    class="ml-2 lite-price">18,500</del></p>
                             <hr style="border: solid 1px #ffffff;">
-                            <p class="sub-title text-white">Kazam charging station is India's first intelligent IoT based Charging Station. The perfect solution for the charging needs of electric vehicles in residential societies, offices, malls, restaurants, shops, and petrol pumps. Charging station owners can utilize our analytical interface to track units charged including the earned amount of payment.</p>
+                            <p class="sub-title text-white">Kazam charging station is India's first intelligent IoT
+                                based Charging Station. The perfect solution for the charging needs of electric vehicles
+                                in residential societies, offices, malls, restaurants, shops, and petrol pumps. Charging
+                                station owners can utilize our analytical interface to track units charged including the
+                                earned amount of payment.</p>
                         </div>
                     </div>
-                    <div style= "margin-top:60px;">
+                    <div style="margin-top:60px;">
                         <div class="row align-items-center">
                             <div class="bg-product-detail">
-                                <img class = "float-left" src="./assets/img/kazam-lite-icon.svg" alt="electric car and electric bike">
+                                <img class="float-left" src="./assets/img/kazam-lite-icon.svg"
+                                    alt="electric car and electric bike">
                                 <p class=" float-right sub-title-product-detail">iOT enabled</p>
                             </div>
                             <div class="bg-product-detail ml-2">
-                                <img class = "float-left" src="./assets/img/kazam-lite-icon1.svg" alt="electric car and electric bike">
-                                <p class="float-right sub-title-product-detail">All weather resistance and water proof</p>
+                                <img class="float-left" src="./assets/img/kazam-lite-icon1.svg"
+                                    alt="electric car and electric bike">
+                                <p class="float-right sub-title-product-detail">All weather resistance and water proof
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div style= "padding-top:10px;">
+                    <div style="padding-top:10px;">
                         <div class="row align-items-center">
                             <div class="bg-product-detail">
-                                <img class = "float-left" src="./assets/img/kazam-lite-icon2.svg" alt="electric car and electric bike">
+                                <img class="float-left" src="./assets/img/kazam-lite-icon2.svg"
+                                    alt="electric car and electric bike">
                                 <p class="float-right sub-title-product-detail">Real-time data analytics</p>
                             </div>
                             <div class="bg-product-detail ml-2">
-                                <img class = "float-left" src="./assets/img/kazam-lite-icon3.svg" alt="electric car and electric bike">
+                                <img class="float-left" src="./assets/img/kazam-lite-icon3.svg"
+                                    alt="electric car and electric bike">
                                 <p class="float-right sub-title-product-detail">Super convenience to install</p>
                             </div>
-                        </div> 
+                        </div>
                     </div>
-                    <button type="button" class="btn text-white shadow mb-5 btn-pre-book" style= "margin-top:50px;padding: 5px 50px 5px 50px;" onclick="location.href='./kazam_lite_detail.html'">Pre-Order @ Rs.900</button>      
+                    <button type="button" class="btn text-white shadow mb-5 btn-pre-book"
+                        style="margin-top:50px;padding: 5px 50px 5px 50px;"
+                        onclick="location.href='./kazam_lite_detail.html'">Pre-Order @ Rs.900</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/Kazam lite product-->
 
-                </div>
-                
-            </div>
-        </div>
-        <!--/Kazam lite-->
+    <!--How it work-->
     <div class="container">
-        <!--latest electric car -->
-        <!--
-        <div class="row row-cols-5">
-            <div class="col-12">
-                <p class="card-headline">LATEST ELECTRIC CARS</p>
-            </div>
-            <div class="col-12 mid-banner">
-                <img class="car-banner-image" alt="latest car banner image" src="./assets/img/benz.jpg">
-                <div class="col-md-offset-6">
-                    <p class="text-white">Mercedes Benz EQ</p>
-                    <p class="sub-title text-white" style="margin-top:20px;"><b>Starting at</b> <span class="ml-2 text-danger lite-price">1,10,000</span><del class="ml-2">1,10,000</del></p>
-                </div>
-                <div class="col-md-offset-5">
-                    <button type="button" class="btn  border-danger shadow float-right" style= "margin-top:180px;">Contact Dealer</button>      
-                </div>
-            </div>
-            <div class="col-12">
-                <div class="row justify-content-center">
-                    <div class="col-4 pr-1">
-                        <div class="card shadow" >
-                            <img class="card-img-top mb-3" src="./assets/img/latest-car1.jpg" alt="We call you"> 
-                            <p class="car-card-title">TATA Nexon EV</p>
-                            <p class="car-card-sub-title">1,10,000</p>
-                            <button type="button" class="btn  border-danger btn-contact-dealer">Contact Dealer</button>  
-                        </div>
-                    </div>
-                -->
-                    <!-- 1 -->
-                    <!--<div class="col-4 pr-1">
-                        <div class="card shadow">
-                            <img class="card-img-top mb-3" src="./assets/img/latest-car2.jpg" alt="We setup">
-                            <p class="car-card-title" >MG ZS EV</p>
-                            <p class="car-card-sub-title">1,10,000</p>
-                            <button type="button" class="btn  border-danger btn-contact-dealer" data-dismiss="modal">Contact Dealer</button> 
-                        </div>
-                    </div>
-                -->
-                    <!-- 2 -->
-                    <!--
-                    <div class="col-4 pr-1">
-                        <div class="card shadow">
-                            <img class="card-img-top mb-3" src="./assets/img/latest-car3.jpg" alt="Card image cap">
-                            <p class="car-card-title" >Hyundai Kona EV</p>
-                            <p class="car-card-sub-title">1,10,000</p>
-                            <button type="button" class="btn  border-danger btn-contact-dealer" data-dismiss="modal">Contact Dealer</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    -->
-        <!--/latest electric car-->
-        <!--
-        <div class="separator">See More</div>-->
-        <!--latest electric bike-->
-        <!--
-        <div class="row row-cols-5">
-            <div class="col-12">
-                <p class="card-headline">LATEST ELECTRIC BIKES</p>
-            </div>
-            <div class="col-12">
-                <div class="row justify-content-center">
-                    <div class="col-4 pr-1">
-                        <div class="card shadow" >
-                            <img class="card-img-top mb-3" src="./assets/img/bike.jpg" alt="We call you"> 
-                            <p class="car-card-title">Revolt RV400</p>
-                            <p class="car-card-sub-title">98,999</p>
-                            <button type="button" class="btn  border-danger btn-contact-dealer">Contact Dealer</button>  
-                        </div>
-                    </div>
-                -->
-                    <!-- 1 -->
-                <!--
-                    <div class="col-4 pr-1">
-                        <div class="card shadow">
-                            <img class="card-img-top mb-3" src="./assets/img/bike1.jpg" alt="We setup">
-                            <p class="car-card-title" >Hero Electric Optima LA</p>
-                            <p class="car-card-sub-title">44,990</p>
-                            <button type="button" class="btn  border-danger btn-contact-dealer" data-dismiss="modal">Contact Dealer</button> 
-                        </div>
-                    </div>
-                -->
-                    <!-- 2 -->
-                    <!--
-                    <div class="col-4 pr-1">
-                        <div class="card shadow">
-                            <img class="card-img-top mb-3" src="./assets/img/bike2.jpg" alt="Card image cap">
-                            <p class="car-card-title" >Ather 450X</p>
-                            <p class="car-card-sub-title">1,27,000</p>
-                            <button type="button" class="btn  border-danger btn-contact-dealer" data-dismiss="modal">Contact Dealer</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-    -->
-        <!--/latest electric bike-->
-        <!-- not require
-        <div class="separator">See More</div>-->
-        <!--latest electric 3 wheeler-->
-        <!--
-         <div class="row row-cols-5">
-            <div class="col-12">
-                <p class="card-headline">LATEST ELECTRIC 3 WHEELER</p>
-            </div>
-            <div class="col-12">
-                <div class="row justify-content-center">
-                    <div class="col-4 pr-1">
-                        <div class="card shadow" >
-                            <img class="card-img-top mb-3" src="./assets/img/auto.jpg" alt="We call you"> 
-                            <p class="car-card-title">Mahindra Treo Zor                            </p>
-                            <p class="car-card-sub-title">0</p>
-                            <button type="button" class="btn  border-danger btn-contact-dealer">Contact Dealer</button>  
-                        </div>
-                    </div>-->
-                    <!-- 1 -->
-                    <!--
-                    <div class="col-4 pr-1">
-                        <div class="card shadow">
-                            <img class="card-img-top mb-3" src="./assets/img/auto1.jpg" alt="We setup">
-                            <p class="car-card-title" >Kinetic Green Safar                            </p>
-                            <p class="car-card-sub-title">0</p>
-                            <button type="button" class="btn  border-danger btn-contact-dealer" data-dismiss="modal">Contact Dealer</button> 
-                        </div>
-                    </div>-->
-                    <!-- 2 --><!--
-                    <div class="col-4 pr-1">
-                        <div class="card shadow">
-                            <img class="card-img-top mb-3" src="./assets/img/auto2.jpg" alt="Card image cap">
-                            <p class="car-card-title" >Altigreen 90XT</p>
-                            <p class="car-card-sub-title">0</p>
-                            <button type="button" class="btn  border-danger btn-contact-dealer" data-dismiss="modal">Contact Dealer</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-        -->
-        <!--/latest electric 3 wheeler-->
-        <!--
-        <div class="separator">See More</div>-->
-        <!--How it work-->
         <div class="row row-cols-5">
             <div class="col-12">
                 <p class="card-headline">HOW IT WORKS</p>
             </div>
             <div class="col-12">
                 <div class="row justify-content-center">
+                    <!-- 1 -->
                     <div class="col pr-1">
                         <div class="card bdr-95 w-100 text-center h-100">
-                            <div class="card-body"> 
-                                <img class="we-call mb-3" src="./assets/img/we-call.svg" alt="We call you">
+                            <div class="card-body">
+                                <img class="we-call mb-3" src="./assets/img/we-call.svg" alt="We call you" />
                                 <h5 class="card-title mb-1">We call you</h5>
                                 <p class="card-text f-small sub-title">To understand your need</p>
                             </div>
                         </div>
                     </div>
-                    <!-- 1 -->
+                    <!-- /1 -->
+                    <!-- 2 -->
                     <div class="col pr-1">
                         <div class="card bdr-95 w-100 text-center h-100">
                             <div class="card-body">
-                                <img class="we-setup mb-3" src="./assets/img/we-setup.svg" alt="We setup">
+                                <img class="we-setup mb-3" src="./assets/img/we-setup.svg" alt="We setup" />
                                 <h5 class="card-title mb-1">We Setup</h5>
                                 <p class="we-setup f-small sub-title">a site assessment for you</p>
                             </div>
                         </div>
                     </div>
-                    <!-- 2 -->
+                    <!-- /2 -->
+                    <!-- 3 -->
                     <div class="col pr-1">
                         <div class="card bdr-95 w-100 text-center h-100">
                             <div class="card-body">
-                                <img class="you-book mb-3" src="./assets/img/you-book.svg" alt="Card image cap">
+                                <img class="you-book mb-3" src="./assets/img/you-book.svg" alt="Card image cap" />
                                 <h5 class="card-title mb-1">You Book</h5>
                                 <p class="card-text f-small sub-title">the order</p>
                             </div>
                         </div>
                     </div>
-                    <!-- 3 -->
+                    <!-- /3 -->
+                    <!-- 4 -->
                     <div class="col pr-1">
                         <div class="card bdr-95 w-100 text-center h-100">
                             <div class="card-body">
@@ -372,7 +289,8 @@
                             </div>
                         </div>
                     </div>
-                    <!-- 4 -->
+                    <!-- /4 -->
+                    <!-- 5 -->
                     <div class="col pr-1">
                         <div class="card bdr-95 w-100 text-center h-100">
                             <div class="card-body">
@@ -383,98 +301,116 @@
                             </div>
                         </div>
                     </div>
+                    <!-- /5 -->
                 </div>
             </div>
-            
         </div>
-        <!--How it work-->
+    </div>
+    <!--How it work-->
 
-        <!--Blog Post-->
+    <!--Blog Post-->
+    <div class="container">
         <div class="row row-cols-5">
             <div class="col-12">
                 <p class="card-headline">BLOG POST</p>
             </div>
             <div class="col-12">
                 <div class="row justify-content-center">
-                    <div class="col-4 pr-1">
-                        <div class="card">
-                            <img class="card-img-top mb-3 article-image" src="./assets/img/article1.jpeg" alt="electric car and electric bike">
-                            <div class="card-body">
-                                <h6 class="card-title mb-1 article-title" >Top 5 electric bikes in India</h6>
-                                
-                            </div>
-                        </div>
-                    </div>
                     <!-- 1 -->
                     <div class="col-4 pr-1">
                         <div class="card">
-                            <img class="card-img-top mb-3 article-image" src="./assets/img/article2.jpeg" alt="electric car and electric bike">
+                            <img class="card-img-top mb-3 article-image" src="./assets/img/article1.jpeg"
+                                alt="electric car and electric bike">
                             <div class="card-body">
-                                <h6 class="card-title mb-1 article-title" >Which charging stations should I choose?</h6>
-                                
+                                <h6 class="card-title mb-1 article-title">Top 5 electric bikes in India</h6>
                             </div>
                         </div>
                     </div>
+                    <!-- /1 -->
                     <!-- 2 -->
                     <div class="col-4 pr-1">
-                        <a href="https://www.kazam.in/category/review/tata-nexon-ev:-should-i-buy-or-not">
                         <div class="card">
-                            <img class="card-img-top mb-3 article-image" src="./assets/img/article3.jpeg" alt="electric car and electric bike">
+                            <img class="card-img-top mb-3 article-image" src="./assets/img/article2.jpeg"
+                                alt="electric car and electric bike">
                             <div class="card-body">
-                                
-                                    <h6 class="card-title mb-1 article-title">Tata Nexon EV-  Review</h6>
-                                
-                                
+                                <h6 class="card-title mb-1 article-title">Which charging stations should I choose?</h6>
                             </div>
                         </div>
-                    </a>
                     </div>
+                    <!-- /2 -->
+                    <!-- 3 -->
+                    <div class="col-4 pr-1">
+                        <a href="https://www.kazam.in/category/review/tata-nexon-ev:-should-i-buy-or-not">
+                            <div class="card">
+                                <img class="card-img-top mb-3 article-image" src="./assets/img/article3.jpeg"
+                                    alt="electric car and electric bike">
+                                <div class="card-body">
+                                    <h6 class="card-title mb-1 article-title">Tata Nexon EV- Review</h6>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- /3 -->
                 </div>
             </div>
-            
         </div>
-        <!--/Blog Post-->
         <div class="separator">See More</div>
+    </div>
+    <!--/Blog Post-->
 
-        <!--Vlog Post-->
+    <!--Vlog Post-->
+    <div class="container">
         <div class="row row-cols-5">
             <div class="col-12">
                 <p class="card-headline">VLOG POST</p>
             </div>
             <div class="col-12">
                 <div class="row justify-content-center">
-                    <div class="col-4 pr-1">
-                        <div class="card">
-                           
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe width="727" height="409" src="https://www.youtube.com/embed/l8QOymtYicI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                            
-                        </div>
-                    </div>
                     <!-- 1 -->
                     <div class="col-4 pr-1">
-                        <div class="card">          
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe width="727" height="409" src="https://www.youtube.com/embed/Fl4ZTXhk5KE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                  </div>
+                        <div class="card">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/l8QOymtYicI"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
+                    <!-- /1 -->
                     <!-- 2 -->
                     <div class="col-4 pr-1">
                         <div class="card">
-                                <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe width="727" height="409" src="https://www.youtube.com/embed/oFBmC7gYNVY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/Fl4ZTXhk5KE"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
                         </div>
                     </div>
+                    <!-- /2 -->
+                    <!-- 3 -->
+                    <div class="col-4 pr-1">
+                        <div class="card">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="727" height="409" src="https://www.youtube.com/embed/oFBmC7gYNVY"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /3 -->
                 </div>
             </div>
         </div>
-        <!--Vlog post-->
         <div class="separator">See More</div>
+    </div>
+    <!--Vlog post-->
 
-        <!--User Review-->
+    <!--User Review-->
+    <div class="container">
         <div class="row mt-2">
             <div class="col-12">
                 <p class="card-headline">USER REVIEWS</p>
@@ -482,9 +418,9 @@
             <div class="col-12">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="row carousel-item active">
@@ -492,13 +428,15 @@
                                 <div class="col-6 background-red float-left">
                                     <p class="user-name">Rahul Saxena</p>
                                     <p class="user-location">Gurugram</p>
-                                    <img class="d-block crousel-img" src="./assets/img/user-review/rahul-saxena.jpeg" alt="electric car and electric bike">
+                                    <img class="d-block crousel-img" src="./assets/img/user-review/rahul-saxena.jpeg"
+                                        alt="electric car and electric bike">
                                 </div>
                                 <div class="col-6 float-right">
                                     <p class="user-review-quote">“</p>
-                                    <p class="user-review-content">I wanted to buy an electric bike and Kazam gave me an opportunity to explore all the options in EV market and allowed me to make an informed decision for the same.</p>
+                                    <p class="user-review-content">I wanted to buy an electric bike and Kazam gave me an
+                                        opportunity to explore all the options in EV market and allowed me to make an
+                                        informed decision for the same.</p>
                                 </div>
-                                
                             </div>
                         </div>
                         <div class="row carousel-item">
@@ -506,13 +444,15 @@
                                 <div class="col-6 background-red float-left">
                                     <p class="user-name">Kumar Siva</p>
                                     <p class="user-location">Bangalore</p>
-                                    <img class="d-block crousel-img" src="./assets/img/user-review/kumar-siva.jpeg" alt="electric car and electric bike">
+                                    <img class="d-block crousel-img" src="./assets/img/user-review/kumar-siva.jpeg"
+                                        alt="electric car and electric bike">
                                 </div>
                                 <div class="col-6 float-right">
                                     <p class="user-review-quote">“</p>
-                                    <p class="user-review-content">I got an electric charger installed from Kazam outside my restaurant. This has improved my customer footfall and they can charge their vehicles while they eat.</p>
+                                    <p class="user-review-content">I got an electric charger installed from Kazam
+                                        outside my restaurant. This has improved my customer footfall and they can
+                                        charge their vehicles while they eat.</p>
                                 </div>
-                                
                             </div>
                         </div>
                         <div class="row carousel-item">
@@ -520,13 +460,14 @@
                                 <div class="col-6 background-red float-left">
                                     <p class="user-name">Manoj Kamde</p>
                                     <p class="user-location">Mumbai</p>
-                                    <img class="d-block crousel-img" src="./assets/img/user-review/manoj-kamde.jpeg" alt="electric car and electric bike">
+                                    <img class="d-block crousel-img" src="./assets/img/user-review/manoj-kamde.jpeg"
+                                        alt="electric car and electric bike">
                                 </div>
                                 <div class="col-6 float-right">
                                     <p class="user-review-quote">“</p>
-                                    <p class="user-review-content">Kazam helped me in finding the right dealer for buying an electric scooter. I got the right price including subisidy.</p>
+                                    <p class="user-review-content">Kazam helped me in finding the right dealer for
+                                        buying an electric scooter. I got the right price including subisidy.</p>
                                 </div>
-                                
                             </div>
                         </div>
                         <div class="row carousel-item">
@@ -534,295 +475,259 @@
                                 <div class="col-6 background-red float-left">
                                     <p class="user-name">Ramesh Sharma</p>
                                     <p class="user-location">Delhi</p>
-                                    <img class="d-block crousel-img" src="./assets/img/user-review.jpg" alt="electric car and electric bike">
+                                    <img class="d-block crousel-img" src="./assets/img/user-review.jpg"
+                                        alt="electric car and electric bike">
                                 </div>
                                 <div class="col-6 float-right">
                                     <p class="user-review-quote">“</p>
-                                    <p class="user-review-content">Kazam engineers visited my property and designed the best solution charging station for my parking spot. I have started making money out of the charging station now.</p>
+                                    <p class="user-review-content">Kazam engineers visited my property and designed the
+                                        best solution charging station for my parking spot. I have started making money
+                                        out of the charging station now.</p>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
                     </a>
                     <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
                     </a>
                 </div>
             </div>
         </div>
-        <!--/user Review-->
-        <!--What makes us best-->
+    </div>
+    <!--/user Review-->
+
+    <!--What makes us best-->
+    <div class="container">
         <div class="row mt-2">
             <div class="col-12">
                 <p class="card-headline">WHAT MAKES US BEST</p>
             </div>
             <div class="col-12">
                 <div class="row justify-content-center">
+                    <!-- 1 -->
                     <div class="col pb-2  pr-1">
                         <div class="card shadow w-100 text-center h-100">
                             <div class="card-body">
-                                <img class="you-book" src="./assets/img/makes-us-best1.svg" alt="electric car and electric bike">
+                                <img class="you-book" src="./assets/img/makes-us-best1.svg"
+                                    alt="electric car and electric bike">
                                 <p class="card-text font-color">India’s no 1
                                     EV Portal</p>
                             </div>
                         </div>
                     </div>
-                    <!-- 1 -->
+                    <!-- /1 -->
+                    <!-- 2 -->
                     <div class="col pb-2 pr-1">
                         <div class="card shadow w-100 text-center h-100">
                             <div class="card-body">
-                                <img class="we-complete" src="./assets/img/makes-us-best2.svg" alt="electric car and electric bike">
+                                <img class="we-complete" src="./assets/img/makes-us-best2.svg"
+                                    alt="electric car and electric bike">
                                 <p class="card-text font-color">Compare & Choose
                                     Your EV</p>
                             </div>
                         </div>
                     </div>
-                    <!-- 2 -->
-                    <div class="col pb-2 pr-1">
-                        <div class="card shadow w-100 text-center h-100">
-                            <div class="card-body">
-                                <img class="we-complete" src="./assets/img/makes-us-best3.svg" alt="electric car and electric bike">
-                                <p class="card-text font-color">Our IOT enabled smart charger</p>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- /2 -->
                     <!-- 3 -->
                     <div class="col pb-2 pr-1">
                         <div class="card shadow w-100 text-center h-100">
                             <div class="card-body">
-                                <img class="we-complete" src="./assets/img/makes-us-best4.svg" alt="electric car and electric bike">
-                                <p class="card-text font-color">Realtime analytics of your charging</p>
+                                <img class="we-complete" src="./assets/img/makes-us-best3.svg"
+                                    alt="electric car and electric bike">
+                                <p class="card-text font-color">Our IOT enabled smart charger</p>
                             </div>
                         </div>
                     </div>
+                    <!-- /3 -->
                     <!-- 4 -->
                     <div class="col pb-2 pr-1">
                         <div class="card shadow w-100 text-center h-100">
                             <div class="card-body">
-                                <img class="we-complete" src="./assets/img/makes-us-best5.svg" alt="electric car and electric bike">
+                                <img class="we-complete" src="./assets/img/makes-us-best4.svg"
+                                    alt="electric car and electric bike">
+                                <p class="card-text font-color">Realtime analytics of your charging</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /4 -->
+                    <!-- 5 -->
+                    <div class="col pb-2 pr-1">
+                        <div class="card shadow w-100 text-center h-100">
+                            <div class="card-body">
+                                <img class="we-complete" src="./assets/img/makes-us-best5.svg"
+                                    alt="electric car and electric bike">
                                 <p class="card-text font-color">Latest offers in the EV ecosystem</p>
                             </div>
                         </div>
                     </div>
-                    <!-- 5 -->
+                    <!-- /5 -->
                 </div>
             </div>
         </div>
-        <!--/what makes us best-->
     </div>
-        <!-- row -->
+    <!--/what makes us best-->
+
+    <!-- green banner -->
+    <div class="container-fluid">
         <div class="row mt-5">
             <div class="col green-info px-3 py-5">
-                <img src = "./assets/img/banner-image.jpg" alt="electric car and electric bike">
+                <img src="./assets/img/banner-image.jpg" alt="electric car and electric bike">
                 <p class="text-white m-0 green-title" style="padding-top:0px">Do You Know?</p>
                 <p class="text-white m-0 green-title">23% of CO2 emission</p>
                 <p class="text-white green-title">is caused by combustion vehicles. </p>
                 <p class="text-white m-0 green-title">Save the earth and start using electric vehicle now!</p>
             </div>
         </div>
-        <!-- row -->
-    <!--car dekho dynamic section-->
-    <!--not required
-    <div class ="container">
-        <div class="row mt-4">
-            <div class="col">
-                <div class="row align-items-center">
-                    <img class = "Group-240" src="./assets/img/Group 240.svg">
-                    <div class="col">
-                        <p>India's #1</p>
-                        <p class="sub-title m-0">Largest auto portal</p>
-                    </div>
-
-                    <img class = "Group-240" src="./assets/img/Group 241.svg">
-                    <div class="col">
-                        <p>Car Sold</p>
-                        <p class="sub-title">Every 4 minute</p>
-                    </div>
-
-                    <img class = "Group-240" src="./assets/img/Group 242.svg">
-                    <div class="col">
-                        <p>Offers</p>
-                        <p class="sub-title">Stay updated pay less</p>
-                    </div>
-                
-                    <img class = "Group-240" src="./assets/img/Group 244.svg">
-                    <div class="col">
-                        <p>Compare</p>
-                        <p class="sub-title">Decode the right car</p>
-                    </div>
-                </div>       
-            </div>
-        </div>
     </div>
-    -->
-    <!--/car dekho dynamic section-->
-    <!-- row -->
-    
-    <div class="row">
-        <div class="footer pt-5 px-3">  
-            <div class="footer-body">  
-                <!--     
-                <div class="col-12">
-                    <div class="row justify-content-center">
-                        <div class="col">
-                            <h2 class="footer-title">EV Drivers</h2>
-                            <ul class="footer-detail font-color">
-                                <li>Login</li>
-                                <li>Sign up</li>
-                                <li>24x7 Support</li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <h2 class="footer-title">Hosts</h2>
-                            <ul class="footer-detail font-color">
-                                <li>Login</li>
-                                <li>Support  &  FAQ</li>
-                                <li>Contact Support</li>
-                                <li>Contact Sales</li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <h2 class="footer-title">Partners</h2>
-                            <ul class="footer-detail font-color">
-                                <li>Auto Dealers</li>
-                                <li>Automakers</li>
-                                <li>Installers</li>
-                                <li>Authorised Resellers</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                -->
-                <div class="container">
-                    <div class="row">
-                        <div class="col-6 my-2">
-                            <h5 class="footer-title">Our Office</h5>
-                            <h6 class="footer-subtitle">First floor, Plot no.71, Opposite Daily Needs, Sector 16-A , Nerul , Navi Mumbai 400706</h6>
-                            <h5 class="footer-title mt-5">Feel Free to Contact Us</h5>
-                            <h6 class="footer-subtitle" style="color:#f4263d;">support@kazam.in</h6>
-                            <h6 class="footer-subtitle" style="color:#f4263d;">+91 9958943092</h6>
-                            <a href="./about-us.html" class="about-us">
-                                <h6>About Us</h6>
-                            </a>
-                        </div>
-                        <div class="col-6 my-2">
-                            <ul class=" social-icon">
-                                <li>
-                                    <a href="https://www.linkedin.com/posts/kazam-ev_entrepreneur-futureisnow-motivationalmonday-activity-6756791986537193472-xzRq/" target="_blank"></a>
+    <!-- /green banner -->
+
+    <!-- Footer -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="footer pt-5 px-3">
+                <div class="footer-body">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 my-2">
+                                <h5 class="footer-title">Our Office</h5>
+                                <h6 class="footer-subtitle">First floor, Plot no.71, Opposite Daily Needs, Sector 16-A ,
+                                    Nerul , Navi Mumbai 400706</h6>
+                                <h5 class="footer-title mt-5">Feel Free to Contact Us</h5>
+                                <h6 class="footer-subtitle" style="color:#f4263d;">support@kazam.in</h6>
+                                <h6 class="footer-subtitle" style="color:#f4263d;">+91 9958943092</h6>
+                                <a href="./about-us.html" class="about-us">
+                                    <h6>About Us</h6>
+                                </a>
+                            </div>
+                            <div class="col-6 my-2">
+                                <ul class=" social-icon">
+                                    <li>
+                                        <a href="https://www.linkedin.com/posts/kazam-ev_entrepreneur-futureisnow-motivationalmonday-activity-6756791986537193472-xzRq/"
+                                            target="_blank"></a>
                                         <label>Follow for job notification!</label>
                                         <image src="./assets/img/social-icon-linkedin.svg"></image>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/kazam_ev/" target="_blank">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.instagram.com/kazam_ev/" target="_blank">
+                                            <label>Follow for latest electric cars</label>
+                                            <image src="./assets/img/social-icon-instagram.svg"
+                                                alt="electric car and electric bike"></image>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/channel/UCt6tInjIirJvQG_I6U4eung?view_as=subscriber"
+                                            target="_blank">
+                                            <label>Follow for latest EV News</label>
+                                            <image src="./assets/img/social-icon-youtube.svg"
+                                                alt="electric car and electric bike"></image>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.facebook.com/KAZAM-EV-115100800409588" target="_blank">
+                                            <label>Follow to join EV community</label>
+                                            <image src="./assets/img/social-icon-facebook.svg"
+                                                alt="electric car and electric bike"></image>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank"></a>
                                         <label>Follow for latest electric cars</label>
-                                        <image src="./assets/img/social-icon-instagram.svg" alt="electric car and electric bike"></image>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.youtube.com/channel/UCt6tInjIirJvQG_I6U4eung?view_as=subscriber" target="_blank">
-                                        <label>Follow for latest EV News</label>
-                                        <image src="./assets/img/social-icon-youtube.svg" alt="electric car and electric bike"></image>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.facebook.com/KAZAM-EV-115100800409588" target="_blank">
-                                        <label>Follow to join EV community</label>
-                                        <image src="./assets/img/social-icon-facebook.svg" alt="electric car and electric bike"></image>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" target="_blank"></a>
-                                    <label>Follow for latest electric cars</label>
-                                    <image src="./assets/img/social-icon-twitter.svg" alt="electric car and electric bike"></image>
-                                </li>
-                            </ul>
+                                        <image src="./assets/img/social-icon-twitter.svg"
+                                            alt="electric car and electric bike"></image>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col my-2">
-                            <p class="Kazam">KAZAM
-                                <span class="tagline">Everything electric</span>
+                        <div class="row">
+                            <div class="col my-2">
+                                <p class="Kazam">KAZAM
+                                    <span class="tagline">Everything electric</span>
+                                </p>
+                            </div>
+                        </div>
+                        <hr style="background-color:#707070;">
+                        <div class="float-left">
+                            <p class="copyright">© Copyright Kazam 2020</p>
+                            <p class="copyright">All Rights Reserved</p>
+                        </div>
+                        <div class="float-right">
+                            <p class="privacy">By using this website, you agree to our 
+                                <a href="./terms-of-use">Terms of Use</a>,
+                                <a href="./privacy-policy">Privacy Policy</a> & 
+                                <a href="./return-policy">Return Policy</a>
                             </p>
                         </div>
                     </div>
-                    <hr style="background-color:#707070;"> 
-                    <div class="float-left">
-                        <p class="copyright">© Copyright Kazam 2020</p>
-                        <p class="copyright">All Rights Reserved</p>
-                    </div>
-                    <div class="float-right">
-                        <p class="privacy">By using this website, you agree to our 
-                            <a href="./terms-of-use" >Terms of Use</a>,
-                            <a href="./privacy-policy" >Privacy Policy</a> & 
-                            <a href="./return-policy" >Return Policy</a>
-                        </p>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
-        
-    
-    
-    
-</div>
-</div>
-    
-        <!--Inbuild Js Bootstrap-->
-        <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycbyPHvQEPZwQiCbCwYGM1jSucYpPHyo6Kkzf5CjQ49XtGm7z7fw/exec'
-            const form = document.forms['submit-to-google-sheet']
-          
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    <!-- /Footer -->
+
+
+    <!--Inbuild Js Bootstrap-->
+
+    <!-- Contact form script -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyPHvQEPZwQiCbCwYGM1jSucYpPHyo6Kkzf5CjQ49XtGm7z7fw/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
                 .catch(error => console.error('Error!', error.message))
-            })
-          </script>
+        })
+    </script>
+    <!-- /contact form script -->
 
-    <script>
-        /*
-       function myFunction() {
-            var x, text;
+    <!-- regex function -->
+    <!-- <script>
+            
+        function myFunction() {
+                var x, text;
 
-            // Get the value of the input field with id="numb"
-            x = document.getElementById("numberInput").value;
-            var phoneRegex = /^(\+91-|\+91|0)?\d{10}$/;
+                // Get the value of the input field with id="numb"
+                x = document.getElementById("numberInput").value;
+                var phoneRegex = /^(\+91-|\+91|0)?\d{10}$/;
 
-            // If x is Not a Number or less than one or greater than 10
-            if (!x.match(phoneRegex)) {
-                text = "Please enter valid phone";
-                document.getElementById("errormsg").innerHTML = text;
+                // If x is Not a Number or less than one or greater than 10
+                if (!x.match(phoneRegex)) {
+                    text = "Please enter valid phone";
+                    document.getElementById("errormsg").innerHTML = text;
+                    $('#form').trigger("reset");
+                    
+                } else {
+                alert("Thank You, Our team will get in touch with you !!");
                 $('#form').trigger("reset");
+                }
                 
-            } else {
-               alert("Thank You, Our team will get in touch with you !!");
-               $('#form').trigger("reset");
             }
             
-        }
-        */
-    </script>
-      <script>
-        $(document).ready(function(){       
-        var scroll_pos = 0;
-        $(document).scroll(function() { 
-            scroll_pos = $(this).scrollTop();
-            if(scroll_pos > 50) {
-                $('#book').css('background-color', '#dc3545');
-            } else {
-                $('#book').css('background-color', 'black');
-            }
+        </script> -->
+    <!-- /regex function -->
+
+    <!-- on Scroll script -->
+    <script>
+        $(document).ready(function () {
+            var scroll_pos = 0;
+            $(document).scroll(function () {
+                scroll_pos = $(this).scrollTop();
+                if (scroll_pos > 50) {
+                    $('#book').css('background-color', '#dc3545');
+                } else {
+                    $('#book').css('background-color', 'black');
+                }
+            });
         });
-    });
     </script>
-    
+    <!-- /on scroll script -->
 </body>
+
 </html>
