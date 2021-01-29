@@ -3,7 +3,7 @@
     background-image: url('/assets/img/checkout/checkout-body.svg');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 919px;
+    min-height: 600px;
 }
 .product-checkout-image {
     max-width:132px;
