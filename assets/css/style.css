@@ -548,6 +548,10 @@ h6 {
    opacity: 0.7;
 }
 
+.dropdown {
+  color:#050506; 
+}
+
 .missedcall {
   font-family: Lato;
   font-size: 12px;
