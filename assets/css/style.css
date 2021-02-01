@@ -441,6 +441,14 @@ h6 {
   object-fit: cover;
 }
 
+#headercarousel {
+  opacity:0.4;
+  position:relative;
+  z-index:-1; 
+  height:100%; 
+  width:100%
+}
+
 #headercarousel .carousel-item {
   padding-top: 36%;
 }
