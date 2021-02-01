@@ -534,12 +534,11 @@ h6 {
    cursor:pointer;  
 }
 
-.dropdown-menu li a {
+.dropdown-item a {
   font-family: Lato;
   font-size: 12px;
   font-weight: bold;
-  color: #ffffff;
-  padding-top:22px;
+  color: #000000;
   text-decoration: none;
 }
 
