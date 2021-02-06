@@ -439,25 +439,35 @@ h6 {
   object-fit: cover;
 }
 
-.gradient1 {
+.gradient-common {
+   height: 100%;
+}
+
+.gradient-common::before{
+  height: 100%;
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index:1;
+  opacity:0.5;
+}
+
+.gradient1::before {
   background-image: linear-gradient(to bottom, #050506, #0f0f10 67%, rgba(26, 26, 26, 0));
-  height:100%;
 }
-.gradient2 {
+.gradient2::before {
   background-image: linear-gradient(to bottom, #1313b3, #7070c9 67%, rgba(26, 26, 26, 0));
-  height:100%;
 }
-.gradient3 {
+.gradient3::before {
   background-image: linear-gradient(to bottom, #0eb13f, #124610 67%, rgba(26, 26, 26, 0));
-  height:100%;
 }
-.gradient4 {
+.gradient4::before {
   background-image: linear-gradient(to bottom, #a77917, #5b5c10 67%, rgba(26, 26, 26, 0));
-  height:100%;
 }
-.gradient5 {
+.gradient5::before {
   background-image: linear-gradient(to bottom, #a11818, #491212 67%, rgba(26, 26, 26, 0));
-  height:100%;
 }
 
 .mainbanner {
@@ -469,7 +479,7 @@ h6 {
   z-index:-1; 
   height:100%; 
   width:100%;
-  height: 963px;
+  height: 850px;
 }
 
 #headercarousel .carousel-inner {
