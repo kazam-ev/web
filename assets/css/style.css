@@ -9,6 +9,20 @@ body {
   justify-content: left;
 }
 
+.placeholder {
+  width: 165px;
+  height: 42px;
+  font-family: Lato;
+  font-size: 10px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+  color: #959595;
+}
+
 .bg-product-detail {
   background-color: #5c5c5c;
   border-radius: 12px;
@@ -46,14 +60,12 @@ body {
   min-height: 100px;
 }
 
-.green-info,
-.top-banner {
+.green-info {
   position: relative;
   z-index: 0;
 }
 
-.green-info img,
-.top-banner img {
+.green-info img {
   position: absolute;
   left: 0;
   top: 0;
@@ -90,6 +102,86 @@ body {
     object-fit: cover;
   }
   
+
+
+  .top-banner {
+    position: relative;
+    min-height: 300px;
+    z-index: 0;
+  }
+  
+  .header-image {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .image-slider {
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  
+  .gradient-common {
+     height: 100%;
+  }
+  
+  .gradient-common::before{
+    height: 100%;
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:1;
+    opacity:0.5;
+  }
+  
+  .gradient1::before {
+    background-image: linear-gradient(to bottom, #050506, #0f0f10 67%, rgba(26, 26, 26, 0));
+  }
+  .gradient2::before {
+    background-image: linear-gradient(to bottom, #141227, #1b2438 67%, rgba(26, 26, 26, 0));
+  }
+  .gradient3::before {
+    background-image: linear-gradient(to bottom, #091730, #172845 67%, rgba(26, 26, 26, 0));
+  }
+  .gradient4::before {
+    background-image: linear-gradient(to bottom, #050506, #0f0f10 67%, rgba(26, 26, 26, 0));
+  }
+  
+  .mainbanner {
+    padding-top: 36%;
+  }
+  
+  #headercarousel {
+    position:absolute;
+    z-index:-1; 
+    height:100%; 
+    width:100%;
+    height: 500px;
+  }
+  
+  #headercarousel .carousel-inner {
+    height:100%;
+  }
+  
+  .mainbanner img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+  }
+  
+  .topform{
+    position: relative;
+    background: transparent;
+    z-index: 2;
+    top: 50px;
+    left: 0;
+    right: 0;
+  }
 
 .header-image {
     width: 100%;
