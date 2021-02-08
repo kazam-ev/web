@@ -37,9 +37,7 @@ body {
   background-color: #ffffff;
 }
 
-.gradient {
-  background-image: linear-gradient(to bottom, #050506, #0f0f10 67%, rgba(26, 26, 26, 0))
-}
+
 
 h1 {
   font-family: Lato;
@@ -431,7 +429,7 @@ h6 {
 
 .top-banner {
   position: relative;
-  min-height: 482px;
+  min-height: 580px;
   z-index: 0;
 }
 
@@ -441,20 +439,51 @@ h6 {
   object-fit: cover;
 }
 
-#headercarousel {
-  opacity:0.4;
-  position:relative;
-  z-index:-1; 
-  height:100%; 
-  width:100%
+.gradient-common {
+   height: 100%;
 }
 
-#headercarousel .carousel-item {
+.gradient-common::before{
+  height: 100%;
+  content: "";
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index:1;
+  opacity:0.5;
+}
+
+.gradient1::before {
+  background-image: linear-gradient(to bottom, #050506, #0f0f10 67%, rgba(26, 26, 26, 0));
+}
+.gradient2::before {
+  background-image: linear-gradient(to bottom, #141227, #1b2438 67%, rgba(26, 26, 26, 0));
+}
+.gradient3::before {
+  background-image: linear-gradient(to bottom, #091730, #172845 67%, rgba(26, 26, 26, 0));
+}
+.gradient4::before {
+  background-image: linear-gradient(to bottom, #050506, #0f0f10 67%, rgba(26, 26, 26, 0));
+}
+
+.mainbanner {
   padding-top: 36%;
 }
 
+#headercarousel {
+  position:absolute;
+  z-index:-1; 
+  height:100%; 
+  width:100%;
+  height: 960px;
+}
 
-#headercarousel .carousel-item img {
+#headercarousel .carousel-inner {
+  height:100%;
+}
+
+.mainbanner img {
   position: absolute;
   top: 0;
   left: 0;
@@ -464,7 +493,8 @@ h6 {
 }
 
 .topform{
-  position: absolute;
+  position: relative;
+  background: transparent;
   z-index: 2;
   top: 0;
   left: 0;
@@ -758,3 +788,105 @@ h6 {
   text-decoration:none; 
   cursor:pointer;  
 }
+
+
+/* whatsapp popup css */
+.floating-wpp {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  font-size: 14px;
+  transition: bottom 0.2s;
+}
+.floating-wpp .floating-wpp-button {
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.4);
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+  overflow: hidden;
+}
+.floating-wpp .floating-wpp-button img,
+.floating-wpp .floating-wpp-button svg {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+.floating-wpp:hover {
+  bottom: 17px;
+}
+.floating-wpp:hover .floating-wpp-button {
+  box-shadow: 1px 2px 8px rgba(60, 60, 60, 0.4);
+}
+.floating-wpp .floating-wpp-popup {
+  border-radius: 6px;
+  background-color: #e5ddd5;
+  position: absolute;
+  overflow: hidden;
+  padding: 0;
+  box-shadow: 1px 2px 8px rgba(60, 60, 60, 0.25);
+  width: 0;
+  height: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: bottom 0.1s ease-out, opacity 0.2s ease-out;
+  transform-origin: bottom;
+}
+.floating-wpp .floating-wpp-popup.active {
+  padding: 0 12px 12px;
+  width: 260px;
+  height: auto;
+  bottom: 82px;
+  opacity: 1;
+}
+.floating-wpp .floating-wpp-popup .floating-wpp-message {
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 0 5px 5px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.floating-wpp .floating-wpp-popup.active .floating-wpp-message {
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+.floating-wpp .floating-wpp-popup .floating-wpp-head {
+  text-align: right;
+  color: #fff;
+  margin: 0 -15px 10px;
+  padding: 6px 12px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.floating-wpp .floating-wpp-input-message {
+  background-color: #fff;
+  margin: 10px -15px -15px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+.floating-wpp .floating-wpp-input-message textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 8px;
+  margin: 10px 0;
+  width: 100%;
+  max-width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  resize: none;
+}
+.floating-wpp .floating-wpp-btn-send {
+  margin-left: 12px;
+  font-size: 0;
+  cursor: pointer;
+}
+
+/* /whatsapp popup css */
