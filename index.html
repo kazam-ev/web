@@ -45,7 +45,6 @@
         $(function() {
         $('#WAButton').floatingWhatsApp({
             phone: '919871668655', //WhatsApp Business phone number International format-
-            //Get it with Toky at https://toky.co/en/features/whatsapp.
             headerTitle: 'Chat with us on WhatsApp!', //Popup Title
             popupMessage: 'Hello, how can we help you?', //Popup Message
             showPopup: true, //Enables popup display
@@ -736,21 +735,6 @@
            alert("Thank You, Our team will get in touch with you !!");
         }
         
-    }
-    
-
-    function SubForm (){
-        $.ajax({
-            url:'https://script.google.com/a/kazam.in/macros/s/AKfycbzMeJMUjp3T4pBchFCZxmUFfuTuYZAXesC7jVDalAHSPCtA1LgW/exec',
-            type:'post',
-            data:$("#myForm").serializeArray(),
-            success: function(){
-                alert("Thank You, Our team will get in touch with you !!")
-            },
-            error: function(){
-               alert("please submit phone number")
-            }
-        });
     }
     */
 </script>
