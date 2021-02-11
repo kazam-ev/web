@@ -198,26 +198,12 @@ body {
     background-color: #ffffff;
   }
 
-.we-call {
-  }
   .We-call-you {
     font-family: Lato;
     font-size: 12px;
     line-height: 1.25;
     color: #1a1a1a;
   }
-  .we-setup {
-  }
-
-  .you-book {
-  }
-
-  .we-complete {
-  }
-
-  .you-pay {
-  }
-
   .how-it-works {
     margin: 24px;
     font-family: Lato;
@@ -447,7 +433,7 @@ body {
 
   .copyright {
     font-family: Lato;
-    font-size: 12px;s
+    font-size: 12px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
