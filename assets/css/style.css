@@ -694,3 +694,10 @@ body {
 }
 
 /* /whatsapp popup css */
+
+#call {
+  z-index: 99;
+   position: fixed; 
+   bottom: 15px; 
+   right: 90px; 
+}
