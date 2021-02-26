@@ -23,6 +23,17 @@ body {
   color: #959595;
 }
 
+.dealerplaceholder {
+  width: 100%;
+  height: 42px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.22;
+  text-align: left;
+  color: #959595;
+}
+
 .bg-product-detail {
   background-color: #5c5c5c;
   border-radius: 12px;
@@ -700,4 +711,15 @@ body {
    position: fixed; 
    bottom: 15px; 
    right: 90px; 
+}
+
+/*dealer page*/
+.input-label {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: bold;
+}
+.dealer {
+  margin-top:180px;
+  margin-bottom:50px;
 }
