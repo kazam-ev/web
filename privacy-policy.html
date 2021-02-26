@@ -37,31 +37,49 @@
 </head>
 <body>
 
-    <div class="row align-items-center nav">
-        <div class="col mt-2">
-            <ul class="logo">
-                <li>
-                    <a href="/">
-                        <image src="./assets/img/logo/kazam-logo.svg" alt="electric car and electric bike"></image>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <ul class="menu">
-            <li>
-                <a href="./kazam_lite_detail.html">Product</a>
-            </li>
-            <!--
-            <li>Installation</li>
-            <li>News & Reviews</li>
-            <li>EVs</li>
-            <li>Store</li>
-            -->
-        </ul>
-        <div class="col  mt-2 text-right">
-            <button class="btn book-charging" onclick="location.href='./kazam_lite_detail.html'">Buy Charging station</button>
+    <!-- Nav bar -->
+    <div class="container-fluid nav-sticky">
+        <div class="row align-items-center nav">
+            <div class="col py-2">
+                <a href="/" class="logo">
+                    <image src="./assets/img/logo/kazam-logo.svg" alt="electric car and electric bike"></image>
+                </a>
+            </div>
+            <nav class="col col-8 d-flex justify-content-end">
+                <ul class="menu">
+                    <li>
+                        <a class="mr-5" href="./dealer.html">Become Dealer</a>
+                    </li>
+                    <li>
+                        <a href="#" class="dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" >
+                            <li class="dropdown-item"><a href="https://www.kazam.in/solutions/restaurant" style="color:black;">Resturants</a></li>
+                            <li class="dropdown-item"><a href="https://www.kazam.in/solutions/house" style="color:black;">House</a></li>
+                            <li class="dropdown-item"><a href="https://www.kazam.in/solutions/office" style="color:black;">Offices</a></li>
+                            <li class="dropdown-item"><a href="https://www.kazam.in/solutions/shoppingmall" style="color:black;">Malls</a></li>
+                            <li class="dropdown-item"><a href="https://www.kazam.in/solutions/kirana" style="color:black;">Kirana Shop</a></li>
+                            <li class="dropdown-item"><a href="https://www.kazam.in/solutions/petrol" style="color:black;">Petrol Pumps</a></li>
+                            <li class="dropdown-item"><a href="https://www.kazam.in/solutions/society" style="color:black;">Resident Society</a></li>
+                            <!-- <li ><a class="dropdown-item" href="https://www.kazam.in/solutions/tutorial">Tutorial</a></li> -->
+                            <li class="dropdown-item"><a href="https://www.kazam.in/solutions/builder" style="color:black;">Builders</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="ml-5" href="./kazam_lite_detail.html">Product</a>
+                    </li>
+                    <li>
+                        <a class="ml-5" href="https://www.kazam.in/category/">News & Reviews</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <div class="col text-right">
+                <button id="book" class="btn book-charging "
+                    onclick="window.location.href='./kazam_lite_detail.html'">Buy Charging station</button>
+            </div>
         </div>
     </div>
+    <!-- /navbar -->
     <div class="container my-5">
         <h1 class="mb-5"><u>Privacy Policy</u></h1>
         <h3>Introduction</h3>
