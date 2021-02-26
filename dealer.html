@@ -138,7 +138,7 @@
             <nav class="col col-8 d-flex justify-content-end">
                 <ul class="menu">
                     <li>
-                        <a class="ml-5" href="./dealer.html">Become Dealer</a>
+                        <a class="mr-5" href="./dealer.html">Become Dealer</a>
                     </li>
                     <li>
                         <a href="#" class="dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
@@ -212,10 +212,13 @@
     </a>
 
     <!--Div where the WhatsApp will be rendered-->
-    <div id="WAButton" style="z-index:99;">
-                    
-        <!-- <image src="./assets/img/phone.svg"></image> -->
-    
+    <div id="call">
+        <a href="tel:+919958943092">
+            <image src="./assets/img/phone.svg"></image>
+        </a>
+        <div id="WAButton" style="z-index:99;">
+            
+        </div>
     </div>
     <!-- form -->
     <div class="container">
@@ -231,39 +234,52 @@
     </div>
     <!-- /form -->
     
-    <div class="container">
-    <!-- dealer form -->
-    <form method="post" autocomplete="off" name="submit-to-google-sheet">
-            <label>Name (required)</label>
-            <input type="text" class="form-control placeholder" id="numberInput"
-            placeholder="Enter Phone Number" name="phone_number" required="" />
-
-            <label>Email (required)</label>
-            <input type="text" class="form-control placeholder" id="numberInput"
-            placeholder="Enter Phone Number" name="phone_number" required="" />
-
-            <label>Contact Number (required)</label>
-            <input type="text" class="form-control placeholder" id="numberInput"
-            placeholder="Enter Phone Number" name="phone_number" required="" />
-
-            <label>City (required)</label>
-            <input type="text" class="form-control placeholder" id="numberInput"
-            placeholder="Enter Phone Number" name="phone_number" required="" />
-
-            <label>State (required)</label>
-            <input type="text" class="form-control placeholder" id="numberInput"
-            placeholder="Enter Phone Number" name="phone_number" required="" />
-
-            <label>Existing Bussiness (required)</label>
-            <input type="text" class="form-control placeholder" id="numberInput"
-            placeholder="Enter Phone Number" name="phone_number" required="" />
-
-            <label>Working capital you are willing to commit towards inventory (in INR Lakhs) (required)</label>
-            <input type="text" class="form-control placeholder" id="numberInput"
-            placeholder="Enter Phone Number" name="phone_number" required="" />
-            <button class="btn btn-danger ml-1" type="submit" id="getaquote">Submit</button>
-    </form>
-    <!-- /dealer form -->
+    <div class="container dealer">
+        <div class="row">
+            <div class="col">
+                <!-- dealer form -->
+                <form method="post" autocomplete="off" name="submit-to-google-sheet">
+                    <div class="form-group">
+                        <label class="input-label">Name (required)</label>
+                        <input type="text" class="form-control dealerplaceholder" id="numberInput"
+                        placeholder="Enter full name" name="Name" required="" />
+                    </div>
+                    <div class="form-group">
+                        <label class="input-label">Email (required)</label>
+                        <input type="text" class="form-control dealerplaceholder" id="email"
+                        placeholder="Enter email" name="Email" required="" />
+                    </div>
+                    <div class="form-group">     
+                        <label class="input-label">Contact Number (required)</label>
+                        <input type="text" class="form-control dealerplaceholder" id="contact_number"
+                        placeholder="Enter Contact Number" name="Contact_number" required="" />
+                    </div>
+                    <div class="form-group">
+                        <label class="input-label">City (required)</label>
+                        <input type="text" class="form-control dealerplaceholder" id="city"
+                        placeholder="Enter city" name="City" required="" />
+                    </div>
+                    <div class="form-group">
+                        <label class="input-label">State (required)</label>
+                        <input type="text" class="form-control dealerplaceholder" id="state"
+                        placeholder="Enter state" name="State" required="" />
+                    </div>
+                    <div class="form-group">
+                        <label class="input-label">Existing Bussiness (required)</label>
+                        <input type="text" class="form-control dealerplaceholder" id="existing_business"
+                        placeholder="Enter your extisting bussiness details" name="Existing_business" required="" />
+                    </div>
+                    <div class="form-group">
+                        <label class="input-label">Working capital you are willing to commit towards inventory (in INR Lakhs) (required)</label>
+                        <input type="text" class="form-control dealerplaceholder" id="working_capital"
+                        placeholder="Enter amount in rupee" name="Working_capital" required="" />
+                    </div>
+             
+                    <button class="btn btn-danger ml-1 center" type="submit" id="submit">Submit</button>
+                </form>
+                <!-- /dealer form -->
+            </div>
+        </div>
     </div>
 
     <!-- Footer -->
