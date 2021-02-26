@@ -241,42 +241,47 @@
                 <form method="post" autocomplete="off" name="submit-to-google-sheet">
                     <input type="hidden" name="sheet" value="Sheet2" />
                     <div class="form-group">
-                        <label class="input-label">Name (required)</label>
+                        <label class="input-label">Name <span class="text-danger">*</span></label>
                         <input type="text" class="form-control dealerplaceholder" id="numberInput"
                         placeholder="Enter full name" name="Name" required="" />
                     </div>
                     <div class="form-group">
-                        <label class="input-label">Email (required)</label>
-                        <input type="text" class="form-control dealerplaceholder" id="email"
+                        <label class="input-label">Email <span class="text-danger">*</span></label>
+                        <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" class="form-control dealerplaceholder" id="email"
                         placeholder="Enter email" name="Email" required="" />
                     </div>
                     <div class="form-group">     
-                        <label class="input-label">Contact Number (required)</label>
-                        <input type="text" class="form-control dealerplaceholder" id="contact_number"
+                        <label class="input-label">Contact Number <span class="text-danger">*</span></label>
+                        <input type="tel" pattern="[0-9]{10}" class="form-control dealerplaceholder" id="contact_number"
                         placeholder="Enter Contact Number" name="Contact_number" required="" />
                     </div>
                     <div class="form-group">
-                        <label class="input-label">City (required)</label>
+                        <label class="input-label">City <span class="text-danger">*</span></label>
                         <input type="text" class="form-control dealerplaceholder" id="city"
                         placeholder="Enter city" name="City" required="" />
                     </div>
                     <div class="form-group">
-                        <label class="input-label">State (required)</label>
+                        <label class="input-label">State <span class="text-danger">*</span></label>
                         <input type="text" class="form-control dealerplaceholder" id="state"
                         placeholder="Enter state" name="State" required="" />
                     </div>
                     <div class="form-group">
-                        <label class="input-label">Existing Bussiness (required)</label>
+                        <label class="input-label">Existing Bussiness <span class="text-danger">*</span></label>
                         <input type="text" class="form-control dealerplaceholder" id="existing_business"
                         placeholder="Enter your extisting bussiness details" name="Existing_business" required="" />
                     </div>
-                    <div class="form-group">
-                        <label class="input-label">Working capital you are willing to commit towards inventory (in INR Lakhs) (required)</label>
-                        <input type="text" class="form-control dealerplaceholder" id="working_capital"
-                        placeholder="Enter amount in rupee" name="Working_capital" required="" />
-                    </div>
+                    <!-- <div class="form-group"> -->
+                        <label class="input-label">Working capital you are willing to commit towards inventory (in INR Lakhs) <span class="text-danger">*</span></label>
+                        <select class="form-select dealerplaceholder" style="height:100px;" id="working_capital" multiple  name="Working_capital" required="" >
+                            <option selected>Select</option>
+                            <option value="2-5 Lakhs">2-5 Lakhs</option>
+                            <option value="5-10 Lakhs">5-10 Lakhs</option>
+                            <option value="10-25 Lakhs">10-25 Lakhs</option>
+                            <option value="Above 25 Lakhs">Above 25 Lakhs</option>
+                        </select>
+                    <!-- </div> -->
              
-                    <button class="btn btn-danger ml-1 center" type="submit" id="submit">Submit</button>
+                    <button class="btn btn-danger ml-1 my-5 center" type="submit" id="submit">Submit</button>
                 </form>
                 <!-- /dealer form -->
             </div>
