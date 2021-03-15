@@ -91,7 +91,7 @@
                     }, i.autoOpenTimeout);
         }
         function C() {
-            var e = "http://";
+            var e = "https://";
             (e += o ? "api" : "web"), (e += ".whatsapp.com/send?phone=" + i.phone + "&text=" + encodeURI(i.message)), window.open(e);
         }
         i.zIndex && v(this).css("z-index", i.zIndex), "right" === i.position && (this.css({ left: "auto", right: "15px" }), l.css("right", "0"));
