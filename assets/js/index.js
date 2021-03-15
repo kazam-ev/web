@@ -195,7 +195,7 @@ const article2 = {
       type: "paragraph",
       data: {
         text:
-          'There are dozens of <a href="http://github.com/editor-js">ready-to-use Blocks</a> and the <a href="http://editorjs.io/creating-a-block-tool">simple API</a> for creation any Block you need. For example, you can implement Blocks for Tweets, Instagram posts, surveys and polls, CTA-buttons and even games.'
+          'There are dozens of <a href="https://github.com/editor-js">ready-to-use Blocks</a> and the <a href="https://editorjs.io/creating-a-block-tool">simple API</a> for creation any Block you need. For example, you can implement Blocks for Tweets, Instagram posts, surveys and polls, CTA-buttons and even games.'
       }
     },
     {
@@ -242,7 +242,7 @@ const article2 = {
       data: {
         file: {
           url:
-            "http://codex.so/upload/redactor_images/o_e48549d1855c7fc1807308dd14990126.jpg"
+            "https://codex.so/upload/redactor_images/o_e48549d1855c7fc1807308dd14990126.jpg"
         },
         caption: "",
         withBorder: true,
