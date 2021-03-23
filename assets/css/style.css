@@ -822,3 +822,21 @@ h6 {
     margin-top:300px;
     margin-bottom:50px;
 }
+
+/* partener */
+.partners {
+    padding-top: 20px;
+}
+
+.partners img {
+    max-width:100px;
+    filter: grayscale(100);
+    opacity: 0.5;
+    transition: 0.3s;
+}
+
+.partners img:hover {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
