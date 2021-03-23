@@ -824,10 +824,6 @@ h6 {
 }
 
 /* partener */
-.partners {
-    padding-top: 20px;
-}
-
 .partners img {
     max-width:100px;
     filter: grayscale(100);
