@@ -722,3 +722,116 @@ body {
   margin-top:180px;
   margin-bottom:50px;
 }
+
+/* partener */
+.partners img {
+  max-width:100px;
+  filter: grayscale(100);
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.partners img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+.partners img:focus {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+
+/* Magzine */
+
+.magzine {
+  border-radius: 20px;
+  background-image: linear-gradient(146deg, #f4263d 15%, #c3272f 197%);
+  width:100%;
+}
+
+.magzine-title {
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.16;
+  text-align: left;
+  color: #ffffff;
+}
+.magzine-subtitle {
+  opacity: 0.75;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.magzine ul {
+  opacity: 0.75;
+  font-family: Lato;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.magzine-popup-title {
+  font-family: Lato;
+font-size: 32px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.19;
+letter-spacing: normal;
+text-align: center;
+color: #f4263d;
+}
+
+.magzine-popup-subtitle {
+  font-family: Lato;
+font-size: 32px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.19;
+letter-spacing: normal;
+text-align: center;
+color: black;
+}
+
+.magzine-description {
+  opacity: 0.75;
+font-family: Lato;
+font-size: 18px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.22;
+letter-spacing: normal;
+text-align: center;
+}
+
+.magzine-popup {
+  width: 880.3px;
+  height: 450px;
+  margin: 0 0 0.1px 155.9px;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px 0 rgba(0, 0, 0, 0.07);
+  background-color: #ffffff;
+}
+
+.magzine-background {
+ background-image: url(/assets/img/magzine/magzine-popup.png);
+ background-size: contain;
+ background-repeat: no-repeat;
+ background-position: center;
+}
