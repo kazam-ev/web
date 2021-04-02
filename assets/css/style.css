@@ -950,10 +950,7 @@ a.city-link, a.card-link:hover {
     cursor: pointer;
 }
 
-.city-picture:hover {
+.city-arrow:hover {
     fill:#f4263d;
 }
 
-.cls-1:hover {
-    fill:#f4263d;
-}
