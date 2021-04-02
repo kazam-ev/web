@@ -835,3 +835,46 @@ text-align: center;
  background-repeat: no-repeat;
  background-position: center;
 }
+
+/* City Section */
+
+.city-card {
+  border-radius: 24px;
+  border: solid 1px #d3d3d3;
+  background-color: #ffffff;
+}
+
+
+
+.city-name {
+  font-family: Lato;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #5c5c5c;
+}
+
+.city-name:hover {
+  color:#f4263d;
+}
+
+.city-description {
+  font-family: Lato;
+  font-size: 9px;
+  text-align: center;
+  color: #5c5c5c;
+}
+
+a.city-link, a.card-link:hover {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* .city-picture:hover {
+  fill:#f4263d;
+} */
+
+.cls-1:hover {
+  fill:#f4263d;
+}
