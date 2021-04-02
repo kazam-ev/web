@@ -871,10 +871,10 @@ a.city-link, a.card-link:hover {
   cursor: pointer;
 }
 
-/* .city-picture:hover {
-  fill:#f4263d;
-} */
-
-.cls-1:hover {
+.city-arrow:hover,.city-arrow:focus {
   fill:#f4263d;
 }
+
+/* .cls-1:hover {
+  fill:#f4263d;
+} */
