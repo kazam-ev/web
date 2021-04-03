@@ -486,7 +486,7 @@ h6 {
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    padding-top: 22px;
+    /* padding-top: 22px; */
     text-decoration: none;
 }
 .menu li a:hover {
@@ -499,6 +499,7 @@ h6 {
     font-weight: 700;
     color: #000;
     text-decoration: none;
+    display: block;
 }
 .dropdown-item {
     font-family: Lato;
