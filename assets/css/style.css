@@ -954,3 +954,8 @@ a.city-link, a.card-link:hover {
     fill:#f4263d;
 }
 
+.city-image:hover {
+    filter: drop-shadow(2px 2px 2px #f4263d);
+}
+
+
