@@ -875,6 +875,6 @@ a.city-link, a.card-link:hover {
   fill:#f4263d;
 }
 
-/* .cls-1:hover {
-  fill:#f4263d;
-} */
+.city-image:hover, .city-image:focus {
+  filter: drop-shadow(2px 2px 2px #f4263d);
+}
