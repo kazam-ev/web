@@ -588,7 +588,7 @@ h6 {
 .copyright,
 .footer-subtitle {
     font-family: Lato;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     font-stretch: normal;
     font-style: normal;
@@ -611,7 +611,7 @@ h6 {
     text-align: right;
     list-style: none;
     font-family: Lato;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
     font-stretch: normal;
     font-style: normal;
@@ -633,6 +633,9 @@ h6 {
     cursor: pointer;
 }
 .Kazam {
+    position:absolute;
+    bottom:0;
+    left:0;
     font-family: Lato;
     font-size: 32px;
     font-weight: 700;
@@ -947,4 +950,60 @@ a.city-link {
 }
 .city-image:hover {
     filter: drop-shadow(2px 2px 2px #f4263d);
+}
+
+/* app download */
+.app-background {
+    position: absolute;
+    width: 666px;
+    left: -90px;
+    bottom: -29px;
+}
+
+.appTitle {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 200;
+    line-height: 1.07;
+    text-align: left;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+.appMidTitle {
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 1.07;
+    text-align: left;
+    color: #ffffff;
+}
+
+.appSubTitle {
+    opacity: 0.75;
+    font-family: Lato;
+    font-size: 15px;
+    line-height: 1.33;
+    text-align: left;
+    color: #ffffff;
+}
+
+.mapImage {
+    transform: translateX(50px);
+}
+
+.appSpacing {
+    margin-top:90px;
+}
+
+.appRow {
+    position: relative;
+    ALIGN-ITEMS: flex-end;
+    transform: translateY(60px);
+}
+
+.footerRow {
+    position: relative;
+    padding-bottom: 80px;
 }
