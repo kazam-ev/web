@@ -878,3 +878,58 @@ a.city-link, a.card-link:hover {
 .city-image:hover, .city-image:focus {
   filter: drop-shadow(2px 2px 2px #f4263d);
 }
+
+/* app download */
+.app-background {
+  position: absolute;
+  width: 800px;
+  transform: translate(-40px, -212px);
+}
+
+.appTitle {
+  font-family: Inter;
+  font-size: 38px;
+  font-weight: 200;
+  line-height: 1.07;
+  text-align: left;
+  color: #ffffff;
+  margin-top: 135px;
+  margin-bottom: 0;
+}
+
+.appMidTitle {
+  font-family: Lato;
+  font-size: 38px;
+  font-weight: 900;
+  line-height: 1.07;
+  text-align: left;
+  color: #ffffff;
+}
+
+.appSubTitle {
+  opacity: 0.75;
+  font-family: Lato;
+  font-size: 12px;
+  line-height: 1.33;
+  text-align: left;
+  color: #ffffff;
+}
+
+.mapImage {
+  transform: translate(10px,80px);
+}
+
+.appSpacing {
+  margin-top:90px;
+}
+
+.appRow {
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 140px;
+}
+
+.footerRow {
+  position: relative;
+  padding-bottom: 80px;
+}
