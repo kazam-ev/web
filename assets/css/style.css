@@ -414,6 +414,7 @@ body {
   .footer {
     width: 100%;
     background-color: #1a1a1a;
+    overflow:hidden;
   }
   
   .footer-title {
