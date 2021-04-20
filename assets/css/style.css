@@ -884,7 +884,7 @@ a.city-link, a.card-link:hover {
 .app-background {
   position: absolute;
   width: 800px;
-  transform: translate(-40px, -212px);
+  transform: translate(-40px, -285px);
 }
 
 .appTitle {
@@ -894,7 +894,7 @@ a.city-link, a.card-link:hover {
   line-height: 1.07;
   text-align: left;
   color: #ffffff;
-  margin-top: 135px;
+  margin-top: 80px;
   margin-bottom: 0;
 }
 
@@ -917,7 +917,7 @@ a.city-link, a.card-link:hover {
 }
 
 .mapImage {
-  transform: translate(10px,80px);
+  transform: translate(10px,20px);
 }
 
 .appSpacing {
