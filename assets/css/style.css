@@ -912,7 +912,7 @@ h6 {
     background-color: #fff;
 }
 .magzine-background {
-    background-image: url(/assets/img/magzine/magzine-popup.png);
+    background-image: url(https://kazam-media.s3.ap-south-1.amazonaws.com/desktop/magazine/magzine-popup.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
