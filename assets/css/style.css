@@ -934,3 +934,24 @@ a.city-link, a.card-link:hover {
   position: relative;
   padding-bottom: 80px;
 }
+
+/* footer city article list */
+.cityArticle p {
+  font-family: Lato;
+  font-size: 10px;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  text-align: left;
+  color: #959595;
+  position: relative;
+  z-index:1;
+}
+
+.cityArticle a {
+  text-decoration: none;
+  color:inherit;
+  cursor: pointer;
+}
