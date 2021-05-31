@@ -325,7 +325,7 @@ body {
     margin-top: -70px;
 }
 .user-review-quote {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 120px;
     font-weight: 700;
     font-stretch: normal;
@@ -336,7 +336,7 @@ body {
     text-align: center;
 }
 .user-name {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 20px;
     font-weight: 700;
     font-stretch: normal;
@@ -347,7 +347,7 @@ body {
     color: #fff;
 }
 .user-location {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 15px;
     font-weight: 400;
     font-stretch: normal;
@@ -788,7 +788,7 @@ a.city-link {
     transform: translate(-40px, -285px);
 }
 .appTitle {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-size: 38px;
     font-weight: 200;
     line-height: 1.07;
