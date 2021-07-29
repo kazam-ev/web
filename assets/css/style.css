@@ -452,7 +452,7 @@ h6 {
 }
 .article-image {
     max-height: 200px;
-    min-width: 357px;
+    /* min-width: 357px; */
     object-fit: cover;
 }
 .btn-read {
