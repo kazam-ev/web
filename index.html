@@ -122,24 +122,23 @@
     <!-- Nav bar -->
     <div class="container-fluid nav-sticky">
         <div class="row align-items-center nav">
-            <div class="col py-2">
-                <a href="/" class="logo">
-                    <image src="https://kazam-media.s3.ap-south-1.amazonaws.com/images/c8fc7f53-ba3b-49bb-8356-e446debfab6f/1617715970622.svg%2Bxml" alt="electric car and electric bike"></image>
+          
+            <div class="col-2 py-2">
+                <a href="/" class="logo ">
+                    <image class="w-100 h-auto" src="https://kazam-media.s3.ap-south-1.amazonaws.com/images/c8fc7f53-ba3b-49bb-8356-e446debfab6f/1617715970622.svg%2Bxml" alt="electric car and electric bike"></image>
                 </a>
             </div>
-            <nav class="col col-8 d-flex justify-content-end">
+            <div class="col">
+            <nav class="d-flex justify-content-end">
                 <ul class="menu">
-                    <li><a class="mr-5" href="/onboarding">Socket</a></li>
+                    <li class="mx-3"><a  href="/onboarding">Socket</a></li>
                     <li>
-                        <a class="mr-5" href="/ev-charging-station-software">Software</a>
+                        <a  href="/partners">Partners</a>
+                    </li class="mx-3">
+                    <li class="mx-3">
+                        <a  href="./dealer.html">Become Dealer</a>
                     </li>
-                    <li>
-                        <a class="mr-5" href="/partners">Partners</a>
-                    </li>
-                    <li>
-                        <a class="mr-5" href="./dealer.html">Become Dealer</a>
-                    </li>
-                    <li>
+                    <li class="mx-3">
                         <a href="#" class="dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Solutions</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink" >
                             <li class="dropdown-item"><a href="https://www.kazam.in/solutions/restaurant" style="color:black;">Resturants</a></li>
@@ -153,11 +152,11 @@
                             <li class="dropdown-item"><a href="https://www.kazam.in/solutions/builder" style="color:black;">Builders</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a class="ml-5" href="./kazam_lite_detail">Product</a>
+                    <li class="mx-3">
+                        <a  href="./kazam_lite_detail">Product</a>
                     </li>
-                    <li>
-                        <a href="https://www.kazam.in/category/" class="ml-5 dropdown-toggle" id="dropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News & Reviews</a>
+                    <li class="mx-3">
+                        <a href="https://www.kazam.in/category/" class="dropdown-toggle" id="dropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">News & Reviews</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownLink" >
                             <li class="dropdown-item"><a href="https://www.kazam.in/category/news" style="color:black;">News</a></li>
                             <li class="dropdown-item"><a href="https://www.kazam.in/category/review" style="color:black;">Reviews</a></li>
@@ -167,17 +166,20 @@
                             <li class="dropdown-item"><a href="https://www.kazam.in/category/" style="color:black;">All</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="" class="ml-5 dropdown-toggle" id="dropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+                    <li class="mx-3">
+                        <a href="" class="dropdown-toggle" id="dropdownLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownLink" >
+                            <li>
+                                <a class="dropdown-item" href="/ev-charging-station-software" style="color:black;">Software</a>
+                            </li>
                             <li class="dropdown-item"><a href="https://www.kazam.in/installation" style="color:black;">Installation</a></li>
                             <li class="dropdown-item"><a href="https://www.kazam.in/about-us" style="color:black;">About Us</a></li>
                         </ul>
                     </li>
                 </ul>
             </nav>
-            
-            <div class="col text-right">
+        </div>
+            <div class="col-2 text-center">
                 <button id="book" class="btn book-charging "
                     onclick="window.location.href='./kazam_lite_detail'">Buy Charging Station</button>
             </div>
